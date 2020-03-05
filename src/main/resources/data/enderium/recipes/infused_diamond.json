@@ -1,15 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "xx",
-    "xx"
+    "xxx",
+    "x#x",
+    "xxx"
   ],
   "key": {
     "x": {
       "item": "enderium:mystical_dust"
+    },
+    "#": {
+      "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "enderium:mystical_crystal"
+    "item": "enderium:infused_diamond"
   }
 }

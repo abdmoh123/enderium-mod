@@ -2,6 +2,8 @@ package com.abdmoh.enderium;
 
 import com.abdmoh.enderium.blocks.ModBlocks;
 import com.abdmoh.enderium.blocks.MysticalCrystal;
+import com.abdmoh.enderium.items.InfusedDiamond;
+import com.abdmoh.enderium.items.MysticalDust;
 import com.abdmoh.enderium.setup.ClientProxy;
 import com.abdmoh.enderium.setup.IProxy;
 import com.abdmoh.enderium.setup.ModSetup;
@@ -64,6 +66,8 @@ public class Enderium {
             Item.Properties properties = new Item.Properties()
                     .group(setup.itemGroup);
             event.getRegistry().register(new BlockItem(ModBlocks.MYSTICALCRYSTAL, properties).setRegistryName("mystical_crystal"));
+            event.getRegistry().register(new MysticalDust());
+            event.getRegistry().register(new InfusedDiamond());
         }
     }
 }
