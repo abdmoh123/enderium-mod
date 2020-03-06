@@ -8,4 +8,7 @@ public class ModItems {
 
     @ObjectHolder("enderium:infused_diamond")
     public static MysticalDust INFUSEDDIAMOND;
+
+    @ObjectHolder("enderium:enderium_crystal")
+    public static MysticalDust ENDERIUMCRYSTAL;
 }

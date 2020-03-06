@@ -1,0 +1,5 @@
+Args: "--inJar", "C:\Users\Abdul\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.2.0\forge-1.14.4-28.2.0-injected.jar", "--outJar", "C:\Users\Abdul\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.2.0_mapped_stable_58-1.14.4\forge-1.14.4-28.2.0_mapped_stable_58-1.14.4.jar", "--logFile", "accesstransform.log", "--atFile", "D:\Games\MC Modding\Forge mods\Enderium\build\_atJar_1600969515_\parent_at.cfg"
+Classpath: C:\Users\Abdul\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\1.0.5\accesstransformers-1.0.5-fatjar.jar
+WorkDir: D:\Games\MC Modding\Forge mods\Enderium\build\_atJar_1600969515_
+Main: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

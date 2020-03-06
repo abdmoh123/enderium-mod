@@ -6,4 +6,7 @@ public class ModBlocks {
 
     @ObjectHolder("enderium:mystical_crystal")
     public static MysticalCrystal MYSTICALCRYSTAL;
+
+    @ObjectHolder("enderium:enderium_block")
+    public static EnderiumBlock ENDERIUMBLOCK;
 }
