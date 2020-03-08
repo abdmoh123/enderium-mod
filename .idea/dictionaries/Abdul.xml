@@ -2,10 +2,16 @@
   <dictionary name="Abdul">
     <words>
       <w>enderium</w>
+      <w>enderiumaxe</w>
       <w>enderiumblock</w>
       <w>enderiumcrystal</w>
+      <w>enderiumhoe</w>
+      <w>enderiumpickaxe</w>
+      <w>enderiumshovel</w>
+      <w>enderiumsword</w>
       <w>infuseddiamond</w>
       <w>minecraft</w>
+      <w>pickaxe</w>
     </words>
   </dictionary>
 </component>

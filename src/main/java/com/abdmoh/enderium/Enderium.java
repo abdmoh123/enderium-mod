@@ -1,15 +1,8 @@
 package com.abdmoh.enderium;
 
-import com.abdmoh.enderium.blocks.EnderiumBlock;
-import com.abdmoh.enderium.blocks.ModBlocks;
-import com.abdmoh.enderium.blocks.MysticalCrystal;
-import com.abdmoh.enderium.items.EnderiumCrystal;
-import com.abdmoh.enderium.items.InfusedDiamond;
-import com.abdmoh.enderium.items.MysticalDust;
-import com.abdmoh.enderium.setup.ClientProxy;
-import com.abdmoh.enderium.setup.IProxy;
-import com.abdmoh.enderium.setup.ModSetup;
-import com.abdmoh.enderium.setup.ServerProxy;
+import com.abdmoh.enderium.blocks.*;
+import com.abdmoh.enderium.items.*;
+import com.abdmoh.enderium.setup.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
@@ -58,6 +51,7 @@ public class Enderium {
     // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
+        //registers blocks
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             //blocks registered
@@ -65,6 +59,7 @@ public class Enderium {
             event.getRegistry().register(new EnderiumBlock());
         }
 
+        //registers items
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             Item.Properties properties = new Item.Properties()
@@ -78,6 +73,11 @@ public class Enderium {
             event.getRegistry().register(new MysticalDust());
             event.getRegistry().register(new InfusedDiamond());
             event.getRegistry().register(new EnderiumCrystal());
+            event.getRegistry().register(new EnderiumAxe());
+            event.getRegistry().register(new EnderiumHoe());
+            event.getRegistry().register(new EnderiumPickaxe());
+            event.getRegistry().register(new EnderiumShovel());
+            event.getRegistry().register(new EnderiumSword());
         }
     }
 }

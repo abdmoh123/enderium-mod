@@ -1,13 +1,13 @@
-[06Mar2020 00:27:04.678] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[06Mar2020 00:27:04.684] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_144 by Oracle Corporation
-[06Mar2020 00:27:05.166] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[06Mar2020 00:27:06.554] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[06Mar2020 00:27:09.491] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[06Mar2020 00:27:25.353] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[06Mar2020 00:27:25.390] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[06Mar2020 00:27:26.736] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
-[06Mar2020 00:27:26.737] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
-[06Mar2020 00:27:27.141] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.INFUSEDDIAMOND with value infused_diamond (enderium:infused_diamond)
+[08Mar2020 00:14:13.158] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[08Mar2020 00:14:13.167] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_144 by Oracle Corporation
+[08Mar2020 00:14:13.658] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[08Mar2020 00:14:15.118] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[08Mar2020 00:14:18.371] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[08Mar2020 00:14:35.900] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[08Mar2020 00:14:35.940] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[08Mar2020 00:14:37.291] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
+[08Mar2020 00:14:37.292] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
+[08Mar2020 00:14:37.657] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.INFUSEDDIAMOND with value infused_diamond (enderium:infused_diamond)
 java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.INFUSEDDIAMOND to com.abdmoh.enderium.items.InfusedDiamond
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
@@ -37,7 +37,127 @@ java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
-[06Mar2020 00:27:27.163] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMCRYSTAL with value enderium_crystal (enderium:enderium_crystal)
+[08Mar2020 00:14:37.677] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMAXE with value enderium_axe (enderium:enderium_axe)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMAXE to com.abdmoh.enderium.items.EnderiumAxe
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:969) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$2(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$5(ClientModLoader.java:113) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:454) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+[08Mar2020 00:14:37.679] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMSWORD with value enderium_sword (enderium:enderium_sword)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMSWORD to com.abdmoh.enderium.items.EnderiumSword
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:969) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$2(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$5(ClientModLoader.java:113) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:454) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+[08Mar2020 00:14:37.680] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMPICKAXE with value enderium_pickaxe (enderium:enderium_pickaxe)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMPICKAXE to com.abdmoh.enderium.items.EnderiumPickaxe
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:969) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$2(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$5(ClientModLoader.java:113) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:454) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+[08Mar2020 00:14:37.682] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMHOE with value enderium_hoe (enderium:enderium_hoe)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMHOE to com.abdmoh.enderium.items.EnderiumHoe
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:969) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$2(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$5(ClientModLoader.java:113) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:454) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+[08Mar2020 00:14:37.683] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMCRYSTAL with value enderium_crystal (enderium:enderium_crystal)
 java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMCRYSTAL to com.abdmoh.enderium.items.EnderiumCrystal
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
@@ -67,10 +187,39 @@ java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
-[06Mar2020 00:27:31.740] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[06Mar2020 00:27:31.919] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[06Mar2020 00:27:32.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderium] Starting version check at http://myurl.me/
-[06Mar2020 00:27:32.305] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[08Mar2020 00:14:37.684] [Client thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMSHOVEL with value enderium_shovel (enderium:enderium_shovel)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMSHOVEL to com.abdmoh.enderium.items.EnderiumShovel
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:969) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:189) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$2(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$5(ClientModLoader.java:113) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:97) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:454) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar:?]
+[08Mar2020 00:14:42.556] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[08Mar2020 00:14:42.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderium] Starting version check at http://myurl.me/
+[08Mar2020 00:14:43.090] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_144]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_144]
@@ -92,26 +241,26 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_144]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[06Mar2020 00:27:32.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[06Mar2020 00:27:34.065] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
-[06Mar2020 00:27:39.162] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[06Mar2020 00:27:39.358] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[06Mar2020 00:27:39.359] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[06Mar2020 00:27:39.672] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
-[06Mar2020 00:27:40.409] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[06Mar2020 00:27:40.410] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[06Mar2020 00:27:40.410] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[06Mar2020 00:27:41.001] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[06Mar2020 00:29:14.541] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06Mar2020 00:29:14.542] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06Mar2020 00:29:14.543] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06Mar2020 00:29:14.544] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06Mar2020 00:29:14.545] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06Mar2020 00:29:14.773] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
-[06Mar2020 00:29:14.773] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[06Mar2020 00:29:14.855] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[06Mar2020 00:29:14.966] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[06Mar2020 00:29:15.155] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.INFUSEDDIAMOND with value infused_diamond (enderium:infused_diamond)
+[08Mar2020 00:14:43.091] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[08Mar2020 00:14:44.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
+[08Mar2020 00:14:49.323] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[08Mar2020 00:14:49.584] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[08Mar2020 00:14:49.585] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[08Mar2020 00:14:49.796] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[08Mar2020 00:14:50.462] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[08Mar2020 00:14:50.464] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[08Mar2020 00:14:50.464] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[08Mar2020 00:14:51.175] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[08Mar2020 00:14:58.182] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08Mar2020 00:14:58.183] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08Mar2020 00:14:58.184] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08Mar2020 00:14:58.185] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08Mar2020 00:14:58.186] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08Mar2020 00:14:58.424] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[08Mar2020 00:14:58.424] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[08Mar2020 00:14:58.520] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[08Mar2020 00:14:58.631] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[08Mar2020 00:14:58.845] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.INFUSEDDIAMOND with value infused_diamond (enderium:infused_diamond)
 java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.INFUSEDDIAMOND to com.abdmoh.enderium.items.InfusedDiamond
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
@@ -134,7 +283,99 @@ java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items
 	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:94) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
-[06Mar2020 00:29:15.159] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMCRYSTAL with value enderium_crystal (enderium:enderium_crystal)
+[08Mar2020 00:14:58.846] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMAXE with value enderium_axe (enderium:enderium_axe)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMAXE to com.abdmoh.enderium.items.EnderiumAxe
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:183) ~[?:?]
+	at net.minecraftforge.registries.GameData.injectSnapshot(GameData.java:891) ~[?:?]
+	at net.minecraftforge.fml.FMLWorldPersistenceHook.readData(FMLWorldPersistenceHook.java:125) ~[?:?]
+	at net.minecraftforge.fml.WorldPersistenceHooks.lambda$handleWorldDataLoad$1(WorldPersistenceHooks.java:47) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_144]
+	at net.minecraftforge.fml.WorldPersistenceHooks.handleWorldDataLoad(WorldPersistenceHooks.java:47) [?:?]
+	at net.minecraft.world.storage.SaveFormat.getWorldData(SaveFormat.java:154) [?:?]
+	at net.minecraft.world.storage.SaveHandler.loadWorldInfo(SaveHandler.java:122) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:68) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:94) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[08Mar2020 00:14:58.847] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMSWORD with value enderium_sword (enderium:enderium_sword)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMSWORD to com.abdmoh.enderium.items.EnderiumSword
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:183) ~[?:?]
+	at net.minecraftforge.registries.GameData.injectSnapshot(GameData.java:891) ~[?:?]
+	at net.minecraftforge.fml.FMLWorldPersistenceHook.readData(FMLWorldPersistenceHook.java:125) ~[?:?]
+	at net.minecraftforge.fml.WorldPersistenceHooks.lambda$handleWorldDataLoad$1(WorldPersistenceHooks.java:47) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_144]
+	at net.minecraftforge.fml.WorldPersistenceHooks.handleWorldDataLoad(WorldPersistenceHooks.java:47) [?:?]
+	at net.minecraft.world.storage.SaveFormat.getWorldData(SaveFormat.java:154) [?:?]
+	at net.minecraft.world.storage.SaveHandler.loadWorldInfo(SaveHandler.java:122) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:68) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:94) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[08Mar2020 00:14:58.848] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMPICKAXE with value enderium_pickaxe (enderium:enderium_pickaxe)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMPICKAXE to com.abdmoh.enderium.items.EnderiumPickaxe
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:183) ~[?:?]
+	at net.minecraftforge.registries.GameData.injectSnapshot(GameData.java:891) ~[?:?]
+	at net.minecraftforge.fml.FMLWorldPersistenceHook.readData(FMLWorldPersistenceHook.java:125) ~[?:?]
+	at net.minecraftforge.fml.WorldPersistenceHooks.lambda$handleWorldDataLoad$1(WorldPersistenceHooks.java:47) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_144]
+	at net.minecraftforge.fml.WorldPersistenceHooks.handleWorldDataLoad(WorldPersistenceHooks.java:47) [?:?]
+	at net.minecraft.world.storage.SaveFormat.getWorldData(SaveFormat.java:154) [?:?]
+	at net.minecraft.world.storage.SaveHandler.loadWorldInfo(SaveHandler.java:122) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:68) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:94) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[08Mar2020 00:14:58.849] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMHOE with value enderium_hoe (enderium:enderium_hoe)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMHOE to com.abdmoh.enderium.items.EnderiumHoe
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:183) ~[?:?]
+	at net.minecraftforge.registries.GameData.injectSnapshot(GameData.java:891) ~[?:?]
+	at net.minecraftforge.fml.FMLWorldPersistenceHook.readData(FMLWorldPersistenceHook.java:125) ~[?:?]
+	at net.minecraftforge.fml.WorldPersistenceHooks.lambda$handleWorldDataLoad$1(WorldPersistenceHooks.java:47) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_144]
+	at net.minecraftforge.fml.WorldPersistenceHooks.handleWorldDataLoad(WorldPersistenceHooks.java:47) [?:?]
+	at net.minecraft.world.storage.SaveFormat.getWorldData(SaveFormat.java:154) [?:?]
+	at net.minecraft.world.storage.SaveHandler.loadWorldInfo(SaveHandler.java:122) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:68) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:94) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[08Mar2020 00:14:58.852] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMCRYSTAL with value enderium_crystal (enderium:enderium_crystal)
 java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMCRYSTAL to com.abdmoh.enderium.items.EnderiumCrystal
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
@@ -157,35 +398,59 @@ java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items
 	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:94) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
-[06Mar2020 00:29:15.167] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
-[06Mar2020 00:29:16.828] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[06Mar2020 00:29:18.931] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
-[06Mar2020 00:29:19.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Mar2020 00:29:20.622] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[06Mar2020 00:29:20.622] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[06Mar2020 00:29:20.622] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[06Mar2020 00:29:23.174] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[06Mar2020 00:29:23.174] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[06Mar2020 00:29:23.174] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[06Mar2020 00:29:23.175] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[06Mar2020 00:29:23.175] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[06Mar2020 00:29:23.928] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[06Mar2020 00:29:24.082] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[06Mar2020 00:29:24.582] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[06Mar2020 00:29:25.077] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
-[06Mar2020 00:29:25.538] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5969 ms
-[06Mar2020 00:29:25.861] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Mar2020 00:29:25.861] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Mar2020 00:29:25.865] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 6, from 10
-[06Mar2020 00:29:27.927] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[06Mar2020 00:29:28.228] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:a9c815bf] logged in with entity id 201 at (154.2381527412941, 73.24341321608179, 65.13964431955904)
-[06Mar2020 00:29:28.258] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[06Mar2020 00:29:28.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06Mar2020 00:29:28.714] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[06Mar2020 00:29:28.715] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[06Mar2020 00:29:28.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
-[06Mar2020 00:29:28.880] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 47 advancements
-[06Mar2020 00:29:29.399] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@78264fae[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+[08Mar2020 00:14:58.853] [Server thread/WARN] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to set public static com.abdmoh.enderium.items.MysticalDust com.abdmoh.enderium.items.ModItems.ENDERIUMSHOVEL with value enderium_shovel (enderium:enderium_shovel)
+java.lang.IllegalArgumentException: Can not set static com.abdmoh.enderium.items.MysticalDust field com.abdmoh.enderium.items.ModItems.ENDERIUMSHOVEL to com.abdmoh.enderium.items.EnderiumShovel
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:1.8.0_144]
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:79) ~[?:1.8.0_144]
+	at java.lang.reflect.Field.set(Field.java:764) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:159) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRef.accept(ObjectHolderRef.java:38) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.lambda$applyObjectHolders$10(ObjectHolderRegistry.java:189) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_144]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:189) ~[?:?]
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:183) ~[?:?]
+	at net.minecraftforge.registries.GameData.injectSnapshot(GameData.java:891) ~[?:?]
+	at net.minecraftforge.fml.FMLWorldPersistenceHook.readData(FMLWorldPersistenceHook.java:125) ~[?:?]
+	at net.minecraftforge.fml.WorldPersistenceHooks.lambda$handleWorldDataLoad$1(WorldPersistenceHooks.java:47) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_144]
+	at net.minecraftforge.fml.WorldPersistenceHooks.handleWorldDataLoad(WorldPersistenceHooks.java:47) [?:?]
+	at net.minecraft.world.storage.SaveFormat.getWorldData(SaveFormat.java:154) [?:?]
+	at net.minecraft.world.storage.SaveHandler.loadWorldInfo(SaveHandler.java:122) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:68) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:94) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[08Mar2020 00:14:58.861] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
+[08Mar2020 00:15:00.575] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[08Mar2020 00:15:02.667] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[08Mar2020 00:15:03.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Mar2020 00:15:04.513] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[08Mar2020 00:15:04.513] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[08Mar2020 00:15:04.513] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[08Mar2020 00:15:05.223] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 7%
+[08Mar2020 00:15:07.590] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[08Mar2020 00:15:07.590] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[08Mar2020 00:15:07.590] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[08Mar2020 00:15:07.590] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[08Mar2020 00:15:07.590] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[08Mar2020 00:15:07.847] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[08Mar2020 00:15:08.342] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[08Mar2020 00:15:08.852] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[08Mar2020 00:15:09.347] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[08Mar2020 00:15:09.586] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6248 ms
+[08Mar2020 00:15:09.980] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Mar2020 00:15:09.980] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Mar2020 00:15:09.985] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 6, from 10
+[08Mar2020 00:15:12.124] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[08Mar2020 00:15:12.465] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:ce795f33] logged in with entity id 197 at (150.59091003103092, 72.12375968002924, 61.635041152859344)
+[08Mar2020 00:15:12.496] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[08Mar2020 00:15:12.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[08Mar2020 00:15:12.920] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[08Mar2020 00:15:12.920] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[08Mar2020 00:15:12.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
+[08Mar2020 00:15:13.133] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 53 advancements
+[08Mar2020 00:15:14.210] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4f2b6e6c[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
@@ -208,17 +473,16 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
-[06Mar2020 00:29:30.875] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2613ms or 52 ticks behind
-[06Mar2020 00:29:48.040] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 53 advancements
-[06Mar2020 00:30:16.562] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[06Mar2020 00:30:16.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
-[06Mar2020 00:30:16.971] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[06Mar2020 00:30:16.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[06Mar2020 00:30:16.979] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[06Mar2020 00:30:17.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Mar2020 00:30:17.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Mar2020 00:30:17.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Mar2020 00:30:17.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
-[06Mar2020 00:30:17.247] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (test): All chunks are saved
-[06Mar2020 00:30:17.259] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (test): All chunks are saved
-[06Mar2020 00:30:17.761] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[08Mar2020 00:15:14.920] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2209ms or 44 ticks behind
+[08Mar2020 00:16:37.511] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[08Mar2020 00:16:37.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
+[08Mar2020 00:16:37.920] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[08Mar2020 00:16:37.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[08Mar2020 00:16:37.928] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[08Mar2020 00:16:37.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Mar2020 00:16:37.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Mar2020 00:16:37.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Mar2020 00:16:37.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
+[08Mar2020 00:16:38.247] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[08Mar2020 00:16:38.260] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[08Mar2020 00:16:39.144] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

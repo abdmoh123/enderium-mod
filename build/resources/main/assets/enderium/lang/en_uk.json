@@ -7,6 +7,11 @@
   "item.enderium.mystical_dust": "Mystical Dust",
   "item.enderium.infused_diamond": "Infused Diamond",
   "item.enderium.enderium_crystal": "Enderium",
+  "item.enderium.enderium_sword": "Enderium Sword",
+  "item.enderium.enderium_pickaxe": "Enderium Pickaxe",
+  "item.enderium.enderium_axe": "Enderium Axe",
+  "item.enderium.enderium_shovel": "Enderium Shovel",
+  "item.enderium.enderium_hoe": "Enderium hoe",
 
   "_comment": "Creative tabs:",
   "itemGroup.enderium": "Enderium"
