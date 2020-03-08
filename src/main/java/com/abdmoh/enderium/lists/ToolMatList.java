@@ -1,7 +1,5 @@
 package com.abdmoh.enderium.lists;
 
-import com.abdmoh.enderium.Enderium;
-import com.abdmoh.enderium.items.EnderiumCrystal;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
@@ -9,7 +7,7 @@ import net.minecraft.item.crafting.Ingredient;
 public enum ToolMatList implements IItemTier {
 
     //enderium tools created
-    ender(5.0F,
+    enderium(5.0F,
             12.0F,
             3122,
             4,

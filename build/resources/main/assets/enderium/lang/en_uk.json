@@ -12,6 +12,10 @@
   "item.enderium.enderium_axe": "Enderium Axe",
   "item.enderium.enderium_shovel": "Enderium Shovel",
   "item.enderium.enderium_hoe": "Enderium hoe",
+  "item.enderium.enderium_helmet": "Enderium Helmet",
+  "item.enderium.enderium_chestplate": "Enderium Chestplate",
+  "item.enderium.enderium_leggings": "Enderium Leggings",
+  "item.enderium.enderium_boots": "Enderium Boots",
 
   "_comment": "Creative tabs:",
   "itemGroup.enderium": "Enderium"
