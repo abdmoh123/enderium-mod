@@ -1,10 +1,18 @@
 package com.abdmoh.enderium;
 
-import com.abdmoh.enderium.blocks.*;
-import com.abdmoh.enderium.toolItems.*;
-import com.abdmoh.enderium.items.*;
-import com.abdmoh.enderium.lists.*;
-import com.abdmoh.enderium.setup.*;
+import com.abdmoh.enderium.blocks.EnderiumBlock;
+import com.abdmoh.enderium.blocks.ModBlocks;
+import com.abdmoh.enderium.blocks.MysticalCrystal;
+import com.abdmoh.enderium.items.EnderiumCrystal;
+import com.abdmoh.enderium.items.InfusedDiamond;
+import com.abdmoh.enderium.items.MysticalDust;
+import com.abdmoh.enderium.lists.ArmorMatList;
+import com.abdmoh.enderium.lists.ItemList;
+import com.abdmoh.enderium.lists.ToolMatList;
+import com.abdmoh.enderium.setup.ClientProxy;
+import com.abdmoh.enderium.setup.IProxy;
+import com.abdmoh.enderium.setup.ModSetup;
+import com.abdmoh.enderium.setup.ServerProxy;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
@@ -74,7 +82,7 @@ public class Enderium {
                     ItemList.mystical_dust = new MysticalDust(),
 
                     //tools registered
-                    ItemList.enderium_axe = (AxeItem) new EnderiumAxe(
+                    ItemList.enderium_axe = (AxeItem) new AxeItem(
                             ToolMatList.enderium,
                             5.0F,
                             -3.0F,
@@ -82,14 +90,14 @@ public class Enderium {
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_axe"),
 
-                    ItemList.enderium_hoe = (HoeItem) new EnderiumHoe(
+                    ItemList.enderium_hoe = (HoeItem) new HoeItem(
                             ToolMatList.enderium,
                             1.0F,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_hoe"),
 
-                    ItemList.enderium_pickaxe = (PickaxeItem) new EnderiumPickaxe(
+                    ItemList.enderium_pickaxe = (PickaxeItem) new PickaxeItem(
                             ToolMatList.enderium,
                             1,
                             -2.8F,
@@ -97,7 +105,7 @@ public class Enderium {
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_pickaxe"),
 
-                    ItemList.enderium_shovel = (ShovelItem) new EnderiumShovel(
+                    ItemList.enderium_shovel = (ShovelItem) new ShovelItem(
                             ToolMatList.enderium,
                             1.5F,
                             -3.0F,
@@ -105,7 +113,7 @@ public class Enderium {
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_shovel"),
 
-                    ItemList.enderium_sword = (SwordItem) new EnderiumSword(
+                    ItemList.enderium_sword = (SwordItem) new SwordItem(
                             ToolMatList.enderium,
                             3,
                             -2.0F,
@@ -114,28 +122,28 @@ public class Enderium {
                                     .setRegistryName("enderium_sword"),
 
                     //armour registered
-                    ItemList.enderium_helmet = new ArmorItem(
+                    ItemList.enderium_helmet = (ArmorItem) new ArmorItem(
                             ArmorMatList.enderium,
                             EquipmentSlotType.HEAD,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_helmet"),
 
-                    ItemList.enderium_chestplate = new ArmorItem(
+                    ItemList.enderium_chestplate = (ArmorItem) new ArmorItem(
                             ArmorMatList.enderium,
                             EquipmentSlotType.CHEST,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_chestplate"),
 
-                    ItemList.enderium_leggings = new ArmorItem(
+                    ItemList.enderium_leggings = (ArmorItem) new ArmorItem(
                             ArmorMatList.enderium,
                             EquipmentSlotType.LEGS,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_leggings"),
 
-                    ItemList.enderium_boots = new ArmorItem(
+                    ItemList.enderium_boots = (ArmorItem) new ArmorItem(
                             ArmorMatList.enderium,
                             EquipmentSlotType.FEET,
                             new Item.Properties()

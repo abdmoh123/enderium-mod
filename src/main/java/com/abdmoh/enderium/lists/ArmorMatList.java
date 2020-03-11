@@ -9,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 
 public enum ArmorMatList implements IArmorMaterial {
-    enderium(
+    enderium (
             "enderium",
             400,
             new int[] {3, 6, 8, 3},

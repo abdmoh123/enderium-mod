@@ -16,8 +16,8 @@ public class ItemList {
     public static ShovelItem enderium_shovel;
 
     //armour
-    public static Item enderium_helmet;
-    public static Item enderium_chestplate;
-    public static Item enderium_leggings;
-    public static Item enderium_boots;
+    public static ArmorItem enderium_helmet;
+    public static ArmorItem enderium_chestplate;
+    public static ArmorItem enderium_leggings;
+    public static ArmorItem enderium_boots;
 }
