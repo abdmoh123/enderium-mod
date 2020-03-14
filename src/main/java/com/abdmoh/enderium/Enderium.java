@@ -1,21 +1,13 @@
 package com.abdmoh.enderium;
 
-import com.abdmoh.enderium.blocks.EnderiumBlock;
-import com.abdmoh.enderium.blocks.ModBlocks;
-import com.abdmoh.enderium.blocks.MysticalCrystal;
-import com.abdmoh.enderium.items.EnderiumCrystal;
-import com.abdmoh.enderium.items.InfusedDiamond;
-import com.abdmoh.enderium.items.MysticalDust;
-import com.abdmoh.enderium.lists.ArmorMatList;
-import com.abdmoh.enderium.lists.ItemList;
-import com.abdmoh.enderium.lists.ToolMatList;
-import com.abdmoh.enderium.setup.ClientProxy;
-import com.abdmoh.enderium.setup.IProxy;
-import com.abdmoh.enderium.setup.ModSetup;
-import com.abdmoh.enderium.setup.ServerProxy;
+import com.abdmoh.enderium.blocks.*;
+import com.abdmoh.enderium.items.*;
+import com.abdmoh.enderium.lists.*;
+import com.abdmoh.enderium.setup.*;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
@@ -38,7 +30,7 @@ public class Enderium {
     private static final Logger LOGGER = LogManager.getLogger();
 
     public Enderium() {
-        // Register the setup method for modloading
+        // Register the setup method for mod loading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in
@@ -54,13 +46,27 @@ public class Enderium {
     // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
+
+        //loot table stuff
+        @SubscribeEvent
+        public void lootLoad(LootTableLoadEvent evt) {
+            if (evt.getName().toString().equals("minecraft:chests/simple_dungeon")) {
+                //do stuff with evt.getTable()
+                //regular dungeon loot here
+
+            }
+        }
+
         //registers blocks
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             //blocks registered
             event.getRegistry().registerAll(
                     new MysticalCrystal(),
-                    new EnderiumBlock()
+                    new AncientDebris(),
+                    new EnderiumBlock(),
+                    new NetheriteBlock(),
+                    new SmithingTable()
             );
         }
 
@@ -71,8 +77,14 @@ public class Enderium {
                     .group(setup.itemGroup);
 
             //block items registered
-            event.getRegistry().register(new BlockItem(ModBlocks.MYSTICALCRYSTAL, properties).setRegistryName("mystical_crystal"));
-            event.getRegistry().register(new BlockItem(ModBlocks.ENDERIUMBLOCK, properties).setRegistryName("enderium_block"));
+            event.getRegistry().registerAll(
+                    new BlockItem(ModBlocks.MYSTICALCRYSTAL, properties).setRegistryName("mystical_crystal"),
+                    new BlockItem(ModBlocks.ANCIENTDEBRIS, properties).setRegistryName("ancient_debris"),
+                    new BlockItem(ModBlocks.ENDERIUMBLOCK, properties).setRegistryName("enderium_block"),
+                    new BlockItem(ModBlocks.NETHERITEBLOCK, properties).setRegistryName("netherite_block"),
+                    new BlockItem(ModBlocks.SMITHINGTABLE, properties).setRegistryName("smithing_table")
+            );
+
 
             //items registered
             event.getRegistry().registerAll(
@@ -80,6 +92,8 @@ public class Enderium {
                     ItemList.enderium_crystal = new EnderiumCrystal(),
                     ItemList.infused_diamond = new InfusedDiamond(),
                     ItemList.mystical_dust = new MysticalDust(),
+                    ItemList.netherite_scrap = new NetheriteScrap(),
+                    ItemList.netherite_ingot = new NetheriteIngot(),
 
                     //tools registered
                     ItemList.enderium_axe = (AxeItem) new AxeItem(

@@ -7,6 +7,8 @@ public class ItemList {
     public static Item enderium_crystal;
     public static Item infused_diamond;
     public static Item mystical_dust;
+    public static Item netherite_scrap;
+    public static Item netherite_ingot;
 
     //tools
     public static AxeItem enderium_axe;

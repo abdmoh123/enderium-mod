@@ -7,9 +7,10 @@ import net.minecraft.block.material.Material;
 public class EnderiumBlock extends Block {
 
     public EnderiumBlock() {
-        super(Properties.create(Material.IRON)
+        super(Properties.create(Material.ROCK)
                 .sound(SoundType.METAL)
-                .hardnessAndResistance(2.0f)
+                .hardnessAndResistance(50.0f, 1200)
+                .harvestLevel(3)
         );
         setRegistryName("enderium_block");
     }
