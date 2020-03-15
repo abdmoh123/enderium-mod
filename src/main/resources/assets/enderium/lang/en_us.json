@@ -34,6 +34,12 @@
   "item.enderium.netherite_leggings": "Netherite Leggings",
   "item.enderium.netherite_boots": "Netherite Boots",
 
+  "_comment": "Entity eggs",
+  "item.enderium.x_egg": "X Spawn Egg",
+
+  "_comment": "Entities",
+  "entity.enderium.x": "X",
+
   "_comment": "Creative tabs:",
   "itemGroup.enderium": "Enderium"
 }

@@ -1,18 +1,22 @@
 package com.abdmoh.enderium;
 
 import com.abdmoh.enderium.blocks.*;
+import com.abdmoh.enderium.client.renders.EnderiumRenderRegistry;
 import com.abdmoh.enderium.config.Config;
+import com.abdmoh.enderium.init.EnderiumArmorMaterials;
+import com.abdmoh.enderium.init.EnderiumEntities;
+import com.abdmoh.enderium.init.EnderiumToolMaterials;
+import com.abdmoh.enderium.init.ModItems;
 import com.abdmoh.enderium.items.*;
-import com.abdmoh.enderium.lists.EnderiumArmorMaterials;
-import com.abdmoh.enderium.lists.EnderiumToolMaterials;
-import com.abdmoh.enderium.lists.ModItems;
 import com.abdmoh.enderium.setup.ClientProxy;
 import com.abdmoh.enderium.setup.IProxy;
 import com.abdmoh.enderium.setup.ModSetup;
 import com.abdmoh.enderium.setup.ServerProxy;
 import net.minecraft.block.Block;
+import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -21,6 +25,7 @@ import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
@@ -46,6 +51,7 @@ public class Enderium {
 
         // Register the setup method for mod loading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientRegistries);
 
         //loads config files
         Config.loadConfig(Config.SERVER_CONFIG, FMLPaths.CONFIGDIR.get().resolve("enderium-server.toml").toString());
@@ -55,10 +61,22 @@ public class Enderium {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+    public static ResourceLocation location(String name) {
+        return new ResourceLocation(MODID, name);
+    }
+
     private void setup(final FMLCommonSetupEvent event) {
         //initialises the setup and proxy
         setup.init();
         proxy.init();
+
+        LOGGER.info("setup method registered");
+    }
+
+    private void clientRegistries(final FMLClientSetupEvent event) {
+        //registers entities
+        EnderiumRenderRegistry.registryEntityRenders();
+        LOGGER.info("clientRegistries method registered");
     }
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
@@ -103,7 +121,6 @@ public class Enderium {
                     new BlockItem(ModBlocks.NETHERITEBLOCK, properties).setRegistryName("netherite_block"),
                     new BlockItem(ModBlocks.SMITHINGTABLE, properties).setRegistryName("smithing_table")
             );
-
 
             //items registered
             event.getRegistry().registerAll(
@@ -255,6 +272,18 @@ public class Enderium {
                                     .group(Enderium.setup.itemGroup))
                             .setRegistryName("netherite_boots")
             );
+
+            //registers entities (spawn eggs)
+            EnderiumEntities.registerSpawnEggs(event);
+        }
+
+        @SubscribeEvent
+        public static void onEntitiesRegistry(final RegistryEvent.Register<EntityType<?>> event) {
+            event.getRegistry().registerAll(
+                    EnderiumEntities.X_MOB
+            );
+
+            EnderiumEntities.registerWorldSpawns();
         }
     }
 }
