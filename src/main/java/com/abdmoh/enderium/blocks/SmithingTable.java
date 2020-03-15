@@ -8,7 +8,7 @@ public class SmithingTable extends Block {
     public SmithingTable() {
         super(Properties.create(Material.WOOD)
                 .sound(SoundType.WOOD)
-                .hardnessAndResistance(2.5f, 2.5f)
+                .hardnessAndResistance(2.5f)
         );
         setRegistryName("smithing_table");
     }

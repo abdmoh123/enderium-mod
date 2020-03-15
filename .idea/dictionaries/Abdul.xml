@@ -17,9 +17,12 @@
       <w>minecraft</w>
       <w>modid</w>
       <w>netherite</w>
+      <w>oregen</w>
+      <w>overworld</w>
       <w>pickaxe</w>
       <w>smithing</w>
       <w>smithingtable</w>
+      <w>toml</w>
     </words>
   </dictionary>
 </component>

@@ -24,6 +24,15 @@
 
   "item.enderium.netherite_scrap": "Netherite Scrap",
   "item.enderium.netherite_ingot": "Netherite Ingot",
+  "item.enderium.netherite_sword": "Netherite Sword",
+  "item.enderium.netherite_pickaxe": "Netherite Pickaxe",
+  "item.enderium.netherite_axe": "Netherite Axe",
+  "item.enderium.netherite_shovel": "Netherite Shovel",
+  "item.enderium.netherite_hoe": "Netherite hoe",
+  "item.enderium.netherite_helmet": "Netherite Helmet",
+  "item.enderium.netherite_chestplate": "Netherite Chestplate",
+  "item.enderium.netherite_leggings": "Netherite Leggings",
+  "item.enderium.netherite_boots": "Netherite Boots",
 
   "_comment": "Creative tabs:",
   "itemGroup.enderium": "Enderium"
