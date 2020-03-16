@@ -91,6 +91,8 @@ public class Enderium {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             //blocks registered
             event.getRegistry().registerAll(
+                    new EndDiamondOre(),
+                    new NetherGoldOre(),
                     new Basalt(),
                     new Complite(),
                     new MysticalCrystal(),
@@ -109,6 +111,8 @@ public class Enderium {
 
             //block items registered
             event.getRegistry().registerAll(
+                    new BlockItem(ModBlocks.ENDDIAMONDORE, properties).setRegistryName("end_diamond_ore"),
+                    new BlockItem(ModBlocks.NETHERGOLDORE, properties).setRegistryName("nether_gold_ore"),
                     new BlockItem(ModBlocks.BASALT, properties).setRegistryName("basalt"),
                     new BlockItem(ModBlocks.COMPLITE, properties).setRegistryName("complite"),
                     new BlockItem(ModBlocks.MYSTICALCRYSTAL, properties).setRegistryName("mystical_crystal"),

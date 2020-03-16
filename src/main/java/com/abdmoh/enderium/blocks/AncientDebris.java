@@ -9,7 +9,7 @@ public class AncientDebris extends Block {
     public AncientDebris() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
-                .hardnessAndResistance(30.0F, 1200)
+                .hardnessAndResistance(30.0F, 1200F)
                 .harvestLevel(3)
         );
         setRegistryName("ancient_debris");

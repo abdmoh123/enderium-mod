@@ -9,7 +9,7 @@ public class NetheriteBlock extends Block {
     public NetheriteBlock() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.METAL)
-                .hardnessAndResistance(50.0F, 1200)
+                .hardnessAndResistance(50.0F, 1200.0F)
                 .harvestLevel(3)
         );
         setRegistryName("netherite_block");

@@ -9,7 +9,7 @@ public class Complite extends Block {
     public Complite() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
-                .hardnessAndResistance(2.5F, 8F)
+                .hardnessAndResistance(2.5F, 8.0F)
         );
         setRegistryName("complite");
     }

@@ -17,7 +17,7 @@ public class ModEntities {
 
     public static void registerSpawnEggs(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
-                ModItems.x_egg = registerSpawnEgg(X_MOB, 0xec11f7, 0x1b001c, "x_egg")
+                ModItems.x_egg = registerSpawnEgg(X_MOB, 0xec11f7, 0x8513d1, "x_egg")
         );
     }
 

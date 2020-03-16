@@ -23,6 +23,12 @@ public class ModBlocks {
     @ObjectHolder("enderium:basalt")
     public static Basalt BASALT;
 
+    @ObjectHolder("enderium:nether_gold_ore")
+    public static NetherGoldOre NETHERGOLDORE;
+
+    @ObjectHolder("enderium:end_diamond_ore")
+    public static EndDiamondOre ENDDIAMONDORE;
+
     @ObjectHolder("enderium:smithing_table")
     public static SmithingTable SMITHINGTABLE;
 }

@@ -8,6 +8,8 @@
 
   "block.enderium.complite": "Complite",
   "block.enderium.basalt": "Basalt",
+  "block.enderium.nether_gold_ore": "Nether Gold Ore",
+  "block.enderium.end_diamond_ore": "End Diamond Ore",
   "block.enderium.smithing_table": "Smithing Table",
 
   "_comment": "Items",
