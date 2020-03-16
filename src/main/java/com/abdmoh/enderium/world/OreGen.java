@@ -1,6 +1,6 @@
 package com.abdmoh.enderium.world;
 
-import com.abdmoh.enderium.blocks.ModBlocks;
+import com.abdmoh.enderium.init.ModBlocks;
 import com.abdmoh.enderium.config.OreGenConfig;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.pattern.BlockMatcher;

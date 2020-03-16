@@ -1,6 +1,6 @@
 package com.abdmoh.enderium.entities;
 
-import com.abdmoh.enderium.init.EnderiumEntities;
+import com.abdmoh.enderium.init.ModEntities;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -13,7 +13,7 @@ public class XEntity extends CreatureEntity {
 
     @SuppressWarnings("unchecked")
     public XEntity(EntityType<? extends CreatureEntity> type, World worldIn) {
-        super((EntityType<? extends CreatureEntity>) EnderiumEntities.X_MOB, worldIn);
+        super((EntityType<? extends CreatureEntity>) ModEntities.X_MOB, worldIn);
     }
 
     @Override

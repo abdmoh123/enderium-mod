@@ -18,6 +18,11 @@ public class XEntityRender extends LivingRenderer<XEntity, XEntityModel> {
     }
 
     @Override
+    protected boolean canRenderName(XEntity entity) {
+        return false;
+    }
+
+    @Override
     protected ResourceLocation getEntityTexture(XEntity entity) {
         return new ResourceLocation(Enderium.MODID, "textures/entity/x_mob.png");
     }

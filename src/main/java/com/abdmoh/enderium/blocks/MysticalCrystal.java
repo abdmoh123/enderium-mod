@@ -10,7 +10,7 @@ public class MysticalCrystal extends Block {
     public MysticalCrystal() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.GLASS)
-                .hardnessAndResistance(30.0f, 1200)
+                .hardnessAndResistance(30.0F, 1200)
                 .lightValue(8)
                 .harvestLevel(3)
         );

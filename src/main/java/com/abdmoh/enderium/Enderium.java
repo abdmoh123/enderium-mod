@@ -1,12 +1,9 @@
 package com.abdmoh.enderium;
 
 import com.abdmoh.enderium.blocks.*;
-import com.abdmoh.enderium.client.renders.EnderiumRenderRegistry;
+import com.abdmoh.enderium.client.renders.ModRenderRegistry;
 import com.abdmoh.enderium.config.Config;
-import com.abdmoh.enderium.init.EnderiumArmorMaterials;
-import com.abdmoh.enderium.init.EnderiumEntities;
-import com.abdmoh.enderium.init.EnderiumToolMaterials;
-import com.abdmoh.enderium.init.ModItems;
+import com.abdmoh.enderium.init.*;
 import com.abdmoh.enderium.items.*;
 import com.abdmoh.enderium.setup.ClientProxy;
 import com.abdmoh.enderium.setup.IProxy;
@@ -16,7 +13,6 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -61,10 +57,6 @@ public class Enderium {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    public static ResourceLocation location(String name) {
-        return new ResourceLocation(MODID, name);
-    }
-
     private void setup(final FMLCommonSetupEvent event) {
         //initialises the setup and proxy
         setup.init();
@@ -75,7 +67,7 @@ public class Enderium {
 
     private void clientRegistries(final FMLClientSetupEvent event) {
         //registers entities
-        EnderiumRenderRegistry.registryEntityRenders();
+        ModRenderRegistry.registryEntityRenders();
         LOGGER.info("clientRegistries method registered");
     }
 
@@ -99,6 +91,8 @@ public class Enderium {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             //blocks registered
             event.getRegistry().registerAll(
+                    new Basalt(),
+                    new Complite(),
                     new MysticalCrystal(),
                     new AncientDebris(),
                     new EnderiumBlock(),
@@ -115,6 +109,8 @@ public class Enderium {
 
             //block items registered
             event.getRegistry().registerAll(
+                    new BlockItem(ModBlocks.BASALT, properties).setRegistryName("basalt"),
+                    new BlockItem(ModBlocks.COMPLITE, properties).setRegistryName("complite"),
                     new BlockItem(ModBlocks.MYSTICALCRYSTAL, properties).setRegistryName("mystical_crystal"),
                     new BlockItem(ModBlocks.ANCIENTDEBRIS, properties).setRegistryName("ancient_debris"),
                     new BlockItem(ModBlocks.ENDERIUMBLOCK, properties).setRegistryName("enderium_block"),
@@ -134,7 +130,7 @@ public class Enderium {
                     //tools registered
                     //enderium tools
                     ModItems.enderium_axe = (AxeItem) new AxeItem(
-                            EnderiumToolMaterials.enderium,
+                            ModToolMaterials.enderium,
                             5.0F,
                             -3.0F,
                             new Item.Properties()
@@ -142,14 +138,14 @@ public class Enderium {
                                     .setRegistryName("enderium_axe"),
 
                     ModItems.enderium_hoe = (HoeItem) new HoeItem(
-                            EnderiumToolMaterials.enderium,
+                            ModToolMaterials.enderium,
                             1.0F,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_hoe"),
 
                     ModItems.enderium_pickaxe = (PickaxeItem) new PickaxeItem(
-                            EnderiumToolMaterials.enderium,
+                            ModToolMaterials.enderium,
                             1,
                             -2.8F,
                             new Item.Properties()
@@ -157,7 +153,7 @@ public class Enderium {
                                     .setRegistryName("enderium_pickaxe"),
 
                     ModItems.enderium_shovel = (ShovelItem) new ShovelItem(
-                            EnderiumToolMaterials.enderium,
+                            ModToolMaterials.enderium,
                             1.5F,
                             -3.0F,
                             new Item.Properties()
@@ -165,7 +161,7 @@ public class Enderium {
                                     .setRegistryName("enderium_shovel"),
 
                     ModItems.enderium_sword = (SwordItem) new SwordItem(
-                            EnderiumToolMaterials.enderium,
+                            ModToolMaterials.enderium,
                             3,
                             -2.0F,
                             new Item.Properties()
@@ -174,7 +170,7 @@ public class Enderium {
 
                     //netherite tools
                     ModItems.netherite_axe = (AxeItem) new AxeItem(
-                            EnderiumToolMaterials.netherite,
+                            ModToolMaterials.netherite,
                             5.0F,
                             -3.0F,
                             new Item.Properties()
@@ -182,14 +178,14 @@ public class Enderium {
                             .setRegistryName("netherite_axe"),
 
                     ModItems.netherite_hoe = (HoeItem) new HoeItem(
-                            EnderiumToolMaterials.netherite,
+                            ModToolMaterials.netherite,
                             1.0F,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                             .setRegistryName("netherite_hoe"),
 
                     ModItems.netherite_pickaxe = (PickaxeItem) new PickaxeItem(
-                            EnderiumToolMaterials.netherite,
+                            ModToolMaterials.netherite,
                             1,
                             -2.8F,
                             new Item.Properties()
@@ -197,7 +193,7 @@ public class Enderium {
                             .setRegistryName("netherite_pickaxe"),
 
                     ModItems.netherite_shovel = (ShovelItem) new ShovelItem(
-                            EnderiumToolMaterials.netherite,
+                            ModToolMaterials.netherite,
                             1.5F,
                             -3.0F,
                             new Item.Properties()
@@ -205,7 +201,7 @@ public class Enderium {
                             .setRegistryName("netherite_shovel"),
 
                     ModItems.netherite_sword = (SwordItem) new SwordItem(
-                            EnderiumToolMaterials.netherite,
+                            ModToolMaterials.netherite,
                             3,
                             -2.4F,
                             new Item.Properties()
@@ -216,28 +212,28 @@ public class Enderium {
                     //armour registered
                     //enderium armour
                     ModItems.enderium_helmet = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.enderium,
+                            ModArmorMaterials.enderium,
                             EquipmentSlotType.HEAD,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_helmet"),
 
                     ModItems.enderium_chestplate = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.enderium,
+                            ModArmorMaterials.enderium,
                             EquipmentSlotType.CHEST,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_chestplate"),
 
                     ModItems.enderium_leggings = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.enderium,
+                            ModArmorMaterials.enderium,
                             EquipmentSlotType.LEGS,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_leggings"),
 
                     ModItems.enderium_boots = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.enderium,
+                            ModArmorMaterials.enderium,
                             EquipmentSlotType.FEET,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
@@ -245,28 +241,28 @@ public class Enderium {
 
                     //netherite armour
                     ModItems.netherite_helmet = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.netherite,
+                            ModArmorMaterials.netherite,
                             EquipmentSlotType.HEAD,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                             .setRegistryName("netherite_helmet"),
 
                     ModItems.netherite_chestplate = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.netherite,
+                            ModArmorMaterials.netherite,
                             EquipmentSlotType.CHEST,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                             .setRegistryName("netherite_chestplate"),
 
                     ModItems.netherite_leggings = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.netherite,
+                            ModArmorMaterials.netherite,
                             EquipmentSlotType.LEGS,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                             .setRegistryName("netherite_leggings"),
 
                     ModItems.netherite_boots = (ArmorItem) new ArmorItem(
-                            EnderiumArmorMaterials.netherite,
+                            ModArmorMaterials.netherite,
                             EquipmentSlotType.FEET,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
@@ -274,16 +270,16 @@ public class Enderium {
             );
 
             //registers entities (spawn eggs)
-            EnderiumEntities.registerSpawnEggs(event);
+            ModEntities.registerSpawnEggs(event);
         }
 
         @SubscribeEvent
         public static void onEntitiesRegistry(final RegistryEvent.Register<EntityType<?>> event) {
             event.getRegistry().registerAll(
-                    EnderiumEntities.X_MOB
+                    ModEntities.X_MOB
             );
 
-            EnderiumEntities.registerWorldSpawns();
+            ModEntities.registerWorldSpawns();
         }
     }
 }

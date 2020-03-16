@@ -1,7 +1,7 @@
 package com.abdmoh.enderium.setup;
 
 import com.abdmoh.enderium.Enderium;
-import com.abdmoh.enderium.blocks.ModBlocks;
+import com.abdmoh.enderium.init.ModBlocks;
 import com.abdmoh.enderium.world.OreGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
