@@ -2,15 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "xxx",
-    "x#x",
+    "xxx",
     "xxx"
   ],
   "key": {
-    "#": {
-      "item": "enderium:enderium_crystal"
-    },
     "x": {
-      "item": "minecraft:end_stone"
+      "item": "enderium:enderium_crystal"
     }
   },
   "result": {

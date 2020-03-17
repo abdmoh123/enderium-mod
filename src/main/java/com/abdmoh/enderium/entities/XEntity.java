@@ -1,19 +1,19 @@
 package com.abdmoh.enderium.entities;
 
 import com.abdmoh.enderium.init.ModEntities;
-import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.SwimGoal;
+import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.world.World;
 
-public class XEntity extends CreatureEntity {
+public class XEntity extends MonsterEntity {
 
     @SuppressWarnings("unchecked")
-    public XEntity(EntityType<? extends CreatureEntity> type, World worldIn) {
-        super((EntityType<? extends CreatureEntity>) ModEntities.X_MOB, worldIn);
+    public XEntity(EntityType<? extends MonsterEntity> type, World worldIn) {
+        super((EntityType<? extends MonsterEntity>) ModEntities.X_MOB, worldIn);
     }
 
     @Override

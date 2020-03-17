@@ -23,6 +23,9 @@ public class ModBlocks {
     @ObjectHolder("enderium:basalt")
     public static Basalt BASALT;
 
+    @ObjectHolder("enderium:soul_soil")
+    public static SoulSoil SOULSOIL;
+
     @ObjectHolder("enderium:nether_gold_ore")
     public static NetherGoldOre NETHERGOLDORE;
 

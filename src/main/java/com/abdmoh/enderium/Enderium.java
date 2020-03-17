@@ -9,10 +9,14 @@ import com.abdmoh.enderium.setup.ClientProxy;
 import com.abdmoh.enderium.setup.IProxy;
 import com.abdmoh.enderium.setup.ModSetup;
 import com.abdmoh.enderium.setup.ServerProxy;
+import com.abdmoh.enderium.world.TestWorldType;
+import com.abdmoh.enderium.world.biomes.SoulSandValley;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.world.WorldType;
+import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -33,12 +37,10 @@ import org.apache.logging.log4j.Logger;
 public class Enderium {
 
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
-
     public static ModSetup setup = new ModSetup();
-
     public static final String MODID = "enderium";
-
     public static final Logger LOGGER = LogManager.getLogger();
+    public static final WorldType TEST_TYPE = new TestWorldType();
 
     public Enderium() {
         //registers config files
@@ -91,6 +93,7 @@ public class Enderium {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             //blocks registered
             event.getRegistry().registerAll(
+                    new SoulSoil(),
                     new EndDiamondOre(),
                     new NetherGoldOre(),
                     new Basalt(),
@@ -111,6 +114,7 @@ public class Enderium {
 
             //block items registered
             event.getRegistry().registerAll(
+                    new BlockItem(ModBlocks.SOULSOIL, properties).setRegistryName("soul_soil"),
                     new BlockItem(ModBlocks.ENDDIAMONDORE, properties).setRegistryName("end_diamond_ore"),
                     new BlockItem(ModBlocks.NETHERGOLDORE, properties).setRegistryName("nether_gold_ore"),
                     new BlockItem(ModBlocks.BASALT, properties).setRegistryName("basalt"),
@@ -284,6 +288,15 @@ public class Enderium {
             );
 
             ModEntities.registerWorldSpawns();
+        }
+
+        @SubscribeEvent
+        public static void onBiomesRegistry(final RegistryEvent.Register<Biome> event) {
+            event.getRegistry().registerAll(
+                ModBiomes.soul_sand_valley = new SoulSandValley()
+            );
+
+            ModBiomes.registerBiomes();
         }
     }
 }
