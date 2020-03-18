@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "enderium:block/polished_basalt"}
+    "axis=y":  { "model": "enderium:block/polished_basalt" },
+    "axis=z":   { "model": "enderium:block/polished_basalt", "x": 90 },
+    "axis=x":   { "model": "enderium:block/polished_basalt", "x": 90, "y": 90 }
   }
 }

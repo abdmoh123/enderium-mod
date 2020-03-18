@@ -1,7 +1,7 @@
 package com.abdmoh.enderium.world.gen;
 
-import com.abdmoh.enderium.init.ModBlocks;
 import com.abdmoh.enderium.config.OreGenConfig;
+import com.abdmoh.enderium.init.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.pattern.BlockMatcher;
 import net.minecraft.world.biome.Biome;
@@ -9,14 +9,11 @@ import net.minecraft.world.gen.GenerationStage.Decoration;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.feature.OreFeatureConfig.FillerBlockType;
-import net.minecraft.world.gen.feature.ReplaceBlockConfig;
 import net.minecraft.world.gen.placement.CountRangeConfig;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class OreGen {
-    private static final ReplaceBlockConfig END_STONE = new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(),
-            ModBlocks.MYSTICAL_CRYSTAL.getDefaultState());
     public static void setupOreGen() {
         //generates mystical crystals
         if (OreGenConfig.generate_enderium.get()) {
@@ -52,12 +49,22 @@ public class OreGen {
                         new CountRangeConfig(OreGenConfig.nether_gold_chance.get(), OreGenConfig.nether_gold_bottom.get(), 0, OreGenConfig.nether_gold_top.get())));
             }
         }
-        //generates nether gold ore
+        //generates basalt
         if (OreGenConfig.generate_basalt.get()) {
             for (Biome biome : ForgeRegistries.BIOMES) {
                 biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(FillerBlockType.NETHERRACK,
-                                ModBlocks.BASALT.getDefaultState(), OreGenConfig.basalt_count.get()), Placement.COUNT_RANGE,
+                        ModBlocks.BASALT.getDefaultState(), OreGenConfig.basalt_count.get()), Placement.COUNT_RANGE,
                         new CountRangeConfig(OreGenConfig.basalt_chance.get(), OreGenConfig.basalt_bottom.get(), 0, OreGenConfig.basalt_top.get())));
+            }
+        }
+
+        //generates complite
+        if (OreGenConfig.generate_complite.get()) {
+            for (Biome biome : ForgeRegistries.BIOMES) {
+                biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(
+                        FillerBlockType.create("END_STONE","end_stone", new BlockMatcher(Blocks.END_STONE)),
+                        ModBlocks.COMPLITE.getDefaultState(), OreGenConfig.complite_count.get()), Placement.COUNT_RANGE,
+                        new CountRangeConfig(OreGenConfig.complite_chance.get(), OreGenConfig.complite_bottom.get(), 0, OreGenConfig.complite_top.get())));
             }
         }
     }

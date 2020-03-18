@@ -38,6 +38,13 @@ public class OreGenConfig {
     public static ForgeConfigSpec.IntValue basalt_top;
     public static ForgeConfigSpec.BooleanValue generate_basalt;
 
+    //complite configs
+    public static ForgeConfigSpec.IntValue complite_chance;
+    public static ForgeConfigSpec.IntValue complite_count;
+    public static ForgeConfigSpec.IntValue complite_bottom;
+    public static ForgeConfigSpec.IntValue complite_top;
+    public static ForgeConfigSpec.BooleanValue generate_complite;
+
     public static void init(ForgeConfigSpec.Builder server, ForgeConfigSpec.Builder client) {
         server.comment("OreGen Config");
 
@@ -132,7 +139,7 @@ public class OreGenConfig {
 
         basalt_chance = server
                 .comment("Maximum number of basalt veins that can spawn in one chunk")
-                .defineInRange("oregen.basalt_chance", 10, 1, 100);
+                .defineInRange("oregen.basalt_chance", 8, 1, 100);
 
         basalt_bottom = server
                 .comment("Lowest y-value basalt can spawn at")
@@ -145,5 +152,26 @@ public class OreGenConfig {
         generate_basalt = server
                 .comment("Decide if you want basalt to generate")
                 .define("oregen.generate_basalt", true);
+
+        //complite gen config
+        complite_count = server
+                .comment("Maximum number of complite in a vein")
+                .defineInRange("oregen.complite_count", 24, 1, 100);
+
+        complite_chance = server
+                .comment("Maximum number of complite veins that can spawn in one chunk")
+                .defineInRange("oregen.complite_chance", 8, 1, 100);
+
+        complite_bottom = server
+                .comment("Lowest y-value complite can spawn at")
+                .defineInRange("oregen.complite_bottom", 0, 0, 256);
+
+        complite_top = server
+                .comment("Highest y-value complite can spawn at")
+                .defineInRange("oregen.complite_top", 32, 0, 256);
+
+        generate_complite = server
+                .comment("Decide if you want complite to generate")
+                .define("oregen.generate_complite", true);
     }
 }

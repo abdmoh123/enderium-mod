@@ -1,10 +1,10 @@
 package com.abdmoh.enderium.blocks;
 
-import net.minecraft.block.Block;
+import net.minecraft.block.RotatedPillarBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class PolishedBasalt extends Block {
+public class PolishedBasalt extends RotatedPillarBlock {
     public PolishedBasalt() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
