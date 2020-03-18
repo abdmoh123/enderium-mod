@@ -5,7 +5,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 public class NetherGoldOre extends Block {
-
     public NetherGoldOre() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)

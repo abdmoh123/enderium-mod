@@ -4,34 +4,34 @@ import net.minecraft.item.*;
 
 public class ModItems {
     //other items
-    public static Item enderium_crystal;
-    public static Item infused_diamond;
-    public static Item mystical_dust;
-    public static Item netherite_scrap;
-    public static Item netherite_ingot;
+    public static Item ENDERIUM_CRYSTAL;
+    public static Item INFUSED_DIAMOND;
+    public static Item MYSTICAL_DUST;
+    public static Item NETHERITE_SCRAP;
+    public static Item NETHERITE_INGOT;
 
     //spawn eggs
-    public static Item x_egg;
+    public static Item ENDER_SENTRY_EGG;
 
     //tools
-    public static AxeItem enderium_axe;
-    public static SwordItem enderium_sword;
-    public static PickaxeItem enderium_pickaxe;
-    public static HoeItem enderium_hoe;
-    public static ShovelItem enderium_shovel;
-    public static AxeItem netherite_axe;
-    public static SwordItem netherite_sword;
-    public static PickaxeItem netherite_pickaxe;
-    public static HoeItem netherite_hoe;
-    public static ShovelItem netherite_shovel;
+    public static AxeItem ENDERIUM_AXE;
+    public static SwordItem ENDERIUM_SWORD;
+    public static PickaxeItem ENDERIUM_PICKAXE;
+    public static HoeItem ENDERIUM_HOE;
+    public static ShovelItem ENDERIUM_SHOVEL;
+    public static AxeItem NETHERITE_AXE;
+    public static SwordItem NETHERITE_SWORD;
+    public static PickaxeItem NETHERITE_PICKAXE;
+    public static HoeItem NETHERITE_HOE;
+    public static ShovelItem NETHERITE_SHOVEL;
 
     //armour
-    public static ArmorItem enderium_helmet;
-    public static ArmorItem enderium_chestplate;
-    public static ArmorItem enderium_leggings;
-    public static ArmorItem enderium_boots;
-    public static ArmorItem netherite_helmet;
-    public static ArmorItem netherite_chestplate;
-    public static ArmorItem netherite_leggings;
-    public static ArmorItem netherite_boots;
+    public static ArmorItem ENDERIUM_HELMET;
+    public static ArmorItem ENDERIUM_CHESTPLATE;
+    public static ArmorItem ENDERIUM_LEGGINGS;
+    public static ArmorItem ENDERIUM_BOOTS;
+    public static ArmorItem NETHERITE_HELMET;
+    public static ArmorItem NETHERITE_CHESTPLATE;
+    public static ArmorItem NETHERITE_LEGGINGS;
+    public static ArmorItem NETHERITE_BOOTS;
 }

@@ -31,6 +31,13 @@ public class OreGenConfig {
     public static ForgeConfigSpec.IntValue nether_gold_top;
     public static ForgeConfigSpec.BooleanValue generate_nether_gold;
 
+    //basalt configs
+    public static ForgeConfigSpec.IntValue basalt_chance;
+    public static ForgeConfigSpec.IntValue basalt_count;
+    public static ForgeConfigSpec.IntValue basalt_bottom;
+    public static ForgeConfigSpec.IntValue basalt_top;
+    public static ForgeConfigSpec.BooleanValue generate_basalt;
+
     public static void init(ForgeConfigSpec.Builder server, ForgeConfigSpec.Builder client) {
         server.comment("OreGen Config");
 
@@ -100,22 +107,43 @@ public class OreGenConfig {
         //nether gold gen config
         nether_gold_count = server
                 .comment("Maximum number of nether gold ore in a vein")
-                .defineInRange("oregen.end_diamond_count", 10, 1, 100);
+                .defineInRange("oregen.nether_gold_count", 10, 1, 100);
 
         nether_gold_chance = server
                 .comment("Maximum number of nether gold ore veins that can spawn in one chunk")
-                .defineInRange("oregen.end_diamond_chance", 10, 1, 100);
+                .defineInRange("oregen.nether_gold_chance", 10, 1, 100);
 
         nether_gold_bottom = server
                 .comment("Lowest y-value nether gold ore can spawn at")
-                .defineInRange("oregen.end_diamond_bottom", 10, 0, 256);
+                .defineInRange("oregen.nether_gold_bottom", 10, 0, 256);
 
         nether_gold_top = server
                 .comment("Highest y-value nether gold ore can spawn at")
-                .defineInRange("oregen.end_diamond_top", 117, 0, 256);
+                .defineInRange("oregen.nether_gold_top", 117, 0, 256);
 
         generate_nether_gold = server
                 .comment("Decide if you want nether gold ore to generate")
-                .define("oregen.generate_end_diamond", true);
+                .define("oregen.generate_nether_gold", true);
+
+        //basalt gen config
+        basalt_count = server
+                .comment("Maximum number of basalt in a vein")
+                .defineInRange("oregen.basalt_count", 32, 1, 100);
+
+        basalt_chance = server
+                .comment("Maximum number of basalt veins that can spawn in one chunk")
+                .defineInRange("oregen.basalt_chance", 10, 1, 100);
+
+        basalt_bottom = server
+                .comment("Lowest y-value basalt can spawn at")
+                .defineInRange("oregen.basalt_bottom", 4, 0, 256);
+
+        basalt_top = server
+                .comment("Highest y-value basalt can spawn at")
+                .defineInRange("oregen.basalt_top", 50, 0, 256);
+
+        generate_basalt = server
+                .comment("Decide if you want basalt to generate")
+                .define("oregen.generate_basalt", true);
     }
 }

@@ -5,7 +5,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 public class EndDiamondOre extends Block {
-
     public EndDiamondOre() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)

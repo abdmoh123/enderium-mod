@@ -6,11 +6,12 @@
   "block.enderium.ancient_debris": "Ancient Debris",
   "block.enderium.netherite_block": "Netherite Block",
 
-  "block.enderium.complite": "Complite",
   "block.enderium.basalt": "Basalt",
+  "block.enderium.complite": "Complite",
+  "block.enderium.polished_basalt": "Polished Basalt",
+  "block.enderium.polished_complite": "Polished Complite",
   "block.enderium.nether_gold_ore": "Nether Gold Ore",
   "block.enderium.end_diamond_ore": "End Diamond Ore",
-  "block.enderium.smithing_table": "Smithing Table",
 
   "_comment": "Items",
   "item.enderium.mystical_dust": "Mystical Dust",
@@ -39,10 +40,10 @@
   "item.enderium.netherite_boots": "Netherite Boots",
 
   "_comment": "Entity eggs",
-  "item.enderium.x_egg": "X Spawn Egg",
+  "item.enderium.ender_sentry_egg": "Ender Sentry Spawn Egg",
 
   "_comment": "Entities",
-  "entity.enderium.x": "X",
+  "entity.enderium.ender_sentry": "Ender Sentry",
 
   "_comment": "Creative tabs:",
   "itemGroup.enderium": "Enderium"

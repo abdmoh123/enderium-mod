@@ -10,7 +10,7 @@ public class ModSetup {
     public ItemGroup itemGroup = new ItemGroup("enderium") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.enderium_crystal);
+            return new ItemStack(ModItems.ENDERIUM_CRYSTAL);
         }
     };
 

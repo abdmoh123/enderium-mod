@@ -6,7 +6,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.util.BlockRenderLayer;
 
 public class MysticalCrystal extends Block {
-
     public MysticalCrystal() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.GLASS)
@@ -19,6 +18,6 @@ public class MysticalCrystal extends Block {
 
     @Override
     public BlockRenderLayer getRenderLayer() {
-        return BlockRenderLayer.TRANSLUCENT;
+        return BlockRenderLayer.CUTOUT;
     }
 }

@@ -5,7 +5,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 public class NetheriteBlock extends Block {
-
     public NetheriteBlock() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.METAL)

@@ -1,6 +1,5 @@
 package com.abdmoh.enderium.init;
 
-import com.abdmoh.enderium.Enderium;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.Item;
@@ -14,7 +13,7 @@ public enum ModArmorMaterials implements IArmorMaterial {
             400,
             new int[] {3, 6, 8, 3},
             19,
-            ModItems.enderium_crystal,
+            ModItems.ENDERIUM_CRYSTAL,
             "item.armor.equip_diamond",
             4.0F
     ),
@@ -23,7 +22,7 @@ public enum ModArmorMaterials implements IArmorMaterial {
             300,
             new int[] {3, 6, 8, 3},
             16,
-            ModItems.netherite_ingot,
+            ModItems.NETHERITE_INGOT,
             "item.armor.equip_diamond",
             3.0F
     );
@@ -78,7 +77,7 @@ public enum ModArmorMaterials implements IArmorMaterial {
 
     @Override
     public String getName() {
-        return Enderium.MODID + ":" + this.name;
+        return "enderium:" + this.name;
     }
 
     @Override

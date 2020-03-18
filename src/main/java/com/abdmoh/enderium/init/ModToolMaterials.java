@@ -12,7 +12,7 @@ public enum ModToolMaterials implements IItemTier {
             3122,
             4,
             19,
-            ModItems.enderium_crystal
+            ModItems.ENDERIUM_CRYSTAL
     ),
     //netherite tools created
     netherite(4.0F,
@@ -20,7 +20,7 @@ public enum ModToolMaterials implements IItemTier {
             2031,
             4,
             19,
-            ModItems.netherite_ingot
+            ModItems.NETHERITE_INGOT
     );
 
     private float attackDamage, efficiency;

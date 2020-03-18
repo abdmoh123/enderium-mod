@@ -16,14 +16,14 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class OreGen {
     private static final ReplaceBlockConfig END_STONE = new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(),
-            ModBlocks.MYSTICALCRYSTAL.getDefaultState());
+            ModBlocks.MYSTICAL_CRYSTAL.getDefaultState());
     public static void setupOreGen() {
         //generates mystical crystals
         if (OreGenConfig.generate_enderium.get()) {
             for (Biome biome: ForgeRegistries.BIOMES) {
                 biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(
                         FillerBlockType.create("END_STONE", "end_stone", new BlockMatcher(Blocks.END_STONE)),
-                        ModBlocks.MYSTICALCRYSTAL.getDefaultState(), OreGenConfig.enderium_count.get()), Placement.COUNT_RANGE,
+                        ModBlocks.MYSTICAL_CRYSTAL.getDefaultState(), OreGenConfig.enderium_count.get()), Placement.COUNT_RANGE,
                         new CountRangeConfig(OreGenConfig.enderium_chance.get(), OreGenConfig.enderium_bottom.get(), 0, OreGenConfig.enderium_top.get())));
             }
         }
@@ -31,7 +31,7 @@ public class OreGen {
         if (OreGenConfig.generate_netherite.get()) {
             for (Biome biome: ForgeRegistries.BIOMES) {
                 biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(FillerBlockType.NETHERRACK,
-                        ModBlocks.ANCIENTDEBRIS.getDefaultState(), OreGenConfig.netherite_count.get()), Placement.COUNT_RANGE,
+                        ModBlocks.ANCIENT_DEBRIS.getDefaultState(), OreGenConfig.netherite_count.get()), Placement.COUNT_RANGE,
                         new CountRangeConfig(OreGenConfig.netherite_chance.get(), OreGenConfig.netherite_bottom.get(), 0, OreGenConfig.netherite_top.get())));
             }
         }
@@ -40,16 +40,24 @@ public class OreGen {
             for (Biome biome : ForgeRegistries.BIOMES) {
                 biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(
                         FillerBlockType.create("END_STONE", "end_stone", new BlockMatcher(Blocks.END_STONE)),
-                        ModBlocks.ENDDIAMONDORE.getDefaultState(), OreGenConfig.end_diamond_count.get()), Placement.COUNT_RANGE,
+                        ModBlocks.END_DIAMOND_ORE.getDefaultState(), OreGenConfig.end_diamond_count.get()), Placement.COUNT_RANGE,
                         new CountRangeConfig(OreGenConfig.end_diamond_chance.get(), OreGenConfig.end_diamond_bottom.get(), 0, OreGenConfig.end_diamond_top.get())));
             }
         }
         //generates nether gold ore
-        if (OreGenConfig.generate_end_diamond.get()) {
+        if (OreGenConfig.generate_nether_gold.get()) {
             for (Biome biome : ForgeRegistries.BIOMES) {
                 biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(FillerBlockType.NETHERRACK,
-                        ModBlocks.NETHERGOLDORE.getDefaultState(), OreGenConfig.nether_gold_count.get()), Placement.COUNT_RANGE,
+                        ModBlocks.NETHER_GOLD_ORE.getDefaultState(), OreGenConfig.nether_gold_count.get()), Placement.COUNT_RANGE,
                         new CountRangeConfig(OreGenConfig.nether_gold_chance.get(), OreGenConfig.nether_gold_bottom.get(), 0, OreGenConfig.nether_gold_top.get())));
+            }
+        }
+        //generates nether gold ore
+        if (OreGenConfig.generate_basalt.get()) {
+            for (Biome biome : ForgeRegistries.BIOMES) {
+                biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(FillerBlockType.NETHERRACK,
+                                ModBlocks.BASALT.getDefaultState(), OreGenConfig.basalt_count.get()), Placement.COUNT_RANGE,
+                        new CountRangeConfig(OreGenConfig.basalt_chance.get(), OreGenConfig.basalt_bottom.get(), 0, OreGenConfig.basalt_top.get())));
             }
         }
     }

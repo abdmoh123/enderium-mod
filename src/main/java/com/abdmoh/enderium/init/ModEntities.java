@@ -1,7 +1,7 @@
 package com.abdmoh.enderium.init;
 
 import com.abdmoh.enderium.Enderium;
-import com.abdmoh.enderium.entities.XEntity;
+import com.abdmoh.enderium.entities.EnderSentry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
@@ -11,13 +11,13 @@ import net.minecraft.world.biome.Biomes;
 import net.minecraftforge.event.RegistryEvent;
 
 public class ModEntities {
-    public static EntityType<?> X_MOB = EntityType.Builder.create(
-            XEntity::new, EntityClassification.CREATURE).build(
-                    "enderium:x_mob").setRegistryName("x_mob");
+    public static EntityType<?> ENDER_SENTRY = EntityType.Builder.create(
+            EnderSentry::new, EntityClassification.CREATURE).build(
+                    "enderium:ender_sentry").setRegistryName("ender_sentry");
 
     public static void registerSpawnEggs(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
-                ModItems.x_egg = registerSpawnEgg(X_MOB, 0xec11f7, 0x8513d1, "x_egg")
+                ModItems.ENDER_SENTRY_EGG = registerSpawnEgg(ENDER_SENTRY, 0xec11f7, 0x8513d1, "ender_sentry_egg")
         );
     }
 
@@ -28,15 +28,8 @@ public class ModEntities {
     }
 
     public static void registerWorldSpawns() {
-        registerWorldSpawn(X_MOB,
-                Biomes.PLAINS,
-                Biomes.TAIGA,
-                Biomes.GIANT_SPRUCE_TAIGA,
-                Biomes.TAIGA_MOUNTAINS,
-                Biomes.TAIGA_HILLS,
-                Biomes.GIANT_TREE_TAIGA,
-                Biomes.GIANT_SPRUCE_TAIGA_HILLS,
-                Biomes.GIANT_TREE_TAIGA_HILLS
+        registerWorldSpawn(ENDER_SENTRY,
+                Biomes.SMALL_END_ISLANDS
         );
     }
 
