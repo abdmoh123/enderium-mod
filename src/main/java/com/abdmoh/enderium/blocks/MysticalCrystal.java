@@ -1,11 +1,11 @@
 package com.abdmoh.enderium.blocks;
 
-import net.minecraft.block.Block;
+import net.minecraft.block.GlassBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.util.BlockRenderLayer;
 
-public class MysticalCrystal extends Block {
+public class MysticalCrystal extends GlassBlock {
     public MysticalCrystal() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.GLASS)
@@ -18,6 +18,6 @@ public class MysticalCrystal extends Block {
 
     @Override
     public BlockRenderLayer getRenderLayer() {
-        return BlockRenderLayer.CUTOUT;
+        return BlockRenderLayer.TRANSLUCENT;
     }
 }
