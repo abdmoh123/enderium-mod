@@ -19,11 +19,12 @@
         "items": [
           {
             "item": "enderium:enderium_sword",
-            "enchantment": "sharpness",
-            "levels": {
-              "min": 5,
-              "max": 5
-            }
+            "enchantments": [
+              {
+                "enchantment": "sharpness",
+                "levels": 5
+              }
+            ]
           }
         ]
       }

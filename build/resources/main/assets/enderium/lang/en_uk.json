@@ -1,10 +1,10 @@
 {
   "_comment": "Blocks",
   "block.enderium.mystical_crystal": "Mystical Crystal",
-  "block.enderium.enderium_block": "Enderium Block",
+  "block.enderium.enderium_block": "Block of Enderium",
 
   "block.enderium.ancient_debris": "Ancient Debris",
-  "block.enderium.netherite_block": "Netherite Block",
+  "block.enderium.netherite_block": "Block of Netherite",
 
   "block.enderium.basalt": "Basalt",
   "block.enderium.complite": "Complite",
