@@ -1,10 +1,10 @@
 {
   "_comment": "Blocks",
   "block.enderium.mystical_crystal": "Mystical Crystal",
-  "block.enderium.enderium_block": "Enderium Block",
+  "block.enderium.enderium_block": "Block of Enderium",
 
   "block.enderium.ancient_debris": "Ancient Debris",
-  "block.enderium.netherite_block": "Netherite Block",
+  "block.enderium.netherite_block": "Block of Netherite",
 
   "block.enderium.basalt": "Basalt",
   "block.enderium.complite": "Complite",
@@ -44,6 +44,24 @@
 
   "_comment": "Entities",
   "entity.enderium.ender_sentry": "Ender Sentry",
+
+  "_comment": "Advancements",
+  "advancements.enderium.root.title": "Enderium",
+  "advancements.enderium.root.description": "Mystical resource found at the end of the game",
+  "advancements.enderium.enderium.title": "Harder than Diamond?",
+  "advancements.enderium.enderium.description": "Smelt an Infused Diamond into Enderium",
+  "advancements.enderium.overpowered.title": "Even more Overpowered!",
+  "advancements.enderium.overpowered.description": "Enchant an Enderium Sword with Sharpness V",
+  "advancements.enderium.invincible_enderium-man.title": "The Invincible Enderium-man",
+  "advancements.enderium.invincible_enderium-man.description": "Wear a full set of Enderium Armour",
+  "advancements.netherite.root.title": "Netherite",
+  "advancements.netherite.root.description": "Ancient material from the unknown past",
+  "advancements.netherite.netherite.title": "Death Metal",
+  "advancements.netherite.netherite.description": "Craft a Netherite Ingot from Netherite Scraps and Gold Ingots",
+  "advancements.netherite.flex.title": "Ultimate Flex",
+  "advancements.netherite.flex.description": "Craft an expensive Block of Netherite",
+  "advancements.netherite.fool_me_twice.title": "Fool me twice",
+  "advancements.netherite.fool_me_twice.description": "Completely use up a Netherite Hoe",
 
   "_comment": "Creative tabs:",
   "itemGroup.enderium": "Enderium"

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:enderium_sword"
+    },
+    "title": {
+      "translate": "advancements.enderium.overpowered.title"
+    },
+    "description": {
+      "translate": "advancements.enderium.overpowered.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "enderium:enderium/enderium",
+  "criteria": {
+    "has_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:enderium_sword",
+            "enchantment": "sharpness",
+            "levels": {
+              "min": 5,
+              "max": 5
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 65
+  },
+  "requirements": [
+    [
+      "has_sword"
+    ]
+  ]
+}

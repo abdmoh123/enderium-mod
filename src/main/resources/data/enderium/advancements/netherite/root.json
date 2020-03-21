@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:ancient_debris"
+    },
+    "title": {
+      "translate": "advancements.netherite.root.title"
+    },
+    "description": {
+      "translate": "advancements.netherite.root.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
+  },
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:netherite_hoe"
+    },
+    "title": {
+      "translate": "advancements.netherite.fool_me_twice.title"
+    },
+    "description": {
+      "translate": "advancements.netherite.fool_me_twice.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "enderium:netherite/netherite",
+  "rewards": {
+    "experience": 150
+  },
+  "criteria": {
+    "broke_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "enderium:netherite_hoe"
+        },
+        "durability": 0
+      }
+    }
+  },
+  "requirements": [
+    [
+      "broke_hoe"
+    ]
+  ]
+}

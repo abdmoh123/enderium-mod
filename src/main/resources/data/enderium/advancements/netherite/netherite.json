@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.netherite.netherite.title"
+    },
+    "description": {
+      "translate": "advancements.netherite.netherite.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "enderium:netherite/root",
+  "criteria": {
+    "has_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:netherite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_ingot"
+    ]
+  ]
+}
