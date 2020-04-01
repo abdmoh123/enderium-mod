@@ -1,25 +1,26 @@
-[01Apr2020 23:13:02.100] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[01Apr2020 23:13:02.106] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_144 by Oracle Corporation
-[01Apr2020 23:13:02.636] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[01Apr2020 23:13:04.081] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[01Apr2020 23:13:06.873] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[01Apr2020 23:13:23.089] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[01Apr2020 23:13:23.127] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[01Apr2020 23:13:24.419] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
-[01Apr2020 23:13:24.419] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
-[01Apr2020 23:13:25.723] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loading config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
-[01Apr2020 23:13:25.724] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Built config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
-[01Apr2020 23:13:25.726] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loaded config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
-[01Apr2020 23:13:25.728] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loading config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
-[01Apr2020 23:13:25.729] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Built config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
-[01Apr2020 23:13:25.729] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loaded config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
-[01Apr2020 23:13:25.923] [Client thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity enderium:ender_sentry
-[01Apr2020 23:13:28.814] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[01Apr2020 23:13:30.583] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Setup method registered
-[01Apr2020 23:13:30.583] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: setup method registered
-[01Apr2020 23:13:30.791] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderium] Starting version check at http://myurl.me/
-[01Apr2020 23:13:30.815] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: clientRegistries method registered
-[01Apr2020 23:13:30.924] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Apr2020 23:47:19.454] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[01Apr2020 23:47:19.460] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_144 by Oracle Corporation
+[01Apr2020 23:47:19.978] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01Apr2020 23:47:21.373] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[01Apr2020 23:47:24.187] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[01Apr2020 23:47:40.171] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[01Apr2020 23:47:40.209] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[01Apr2020 23:47:41.593] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
+[01Apr2020 23:47:41.593] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
+[01Apr2020 23:47:41.654] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loading config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
+[01Apr2020 23:47:41.654] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Built config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
+[01Apr2020 23:47:41.656] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loaded config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
+[01Apr2020 23:47:41.659] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loading config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
+[01Apr2020 23:47:41.659] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Built config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
+[01Apr2020 23:47:41.660] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loaded config: D:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
+[01Apr2020 23:47:41.887] [Client thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity enderium:ender_sentry
+[01Apr2020 23:47:46.465] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[01Apr2020 23:47:46.635] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[01Apr2020 23:47:46.650] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Setup method registered
+[01Apr2020 23:47:46.650] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: setup method registered
+[01Apr2020 23:47:46.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderium] Starting version check at http://myurl.me/
+[01Apr2020 23:47:46.896] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: clientRegistries method registered
+[01Apr2020 23:47:48.841] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_144]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_144]
@@ -41,48 +42,45 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_144]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[01Apr2020 23:13:30.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01Apr2020 23:13:31.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
-[01Apr2020 23:13:37.074] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[01Apr2020 23:13:37.280] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[01Apr2020 23:13:37.281] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[01Apr2020 23:13:37.497] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
-[01Apr2020 23:13:38.292] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[01Apr2020 23:13:38.294] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[01Apr2020 23:13:38.294] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[01Apr2020 23:13:38.883] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[01Apr2020 23:14:18.875] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Apr2020 23:14:18.876] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Apr2020 23:14:18.877] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Apr2020 23:14:18.878] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Apr2020 23:14:18.878] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Apr2020 23:14:19.108] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
-[01Apr2020 23:14:19.108] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[01Apr2020 23:14:19.184] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[01Apr2020 23:14:19.184] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[01Apr2020 23:14:19.184] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[01Apr2020 23:14:19.734] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[01Apr2020 23:14:19.950] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
-[01Apr2020 23:14:22.557] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[01Apr2020 23:14:25.714] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 857 advancements
-[01Apr2020 23:14:26.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Apr2020 23:14:27.674] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Apr2020 23:14:27.674] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Apr2020 23:14:27.674] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Apr2020 23:14:27.692] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Apr2020 23:14:28.126] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1938 ms
-[01Apr2020 23:14:28.612] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Apr2020 23:14:28.613] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Apr2020 23:14:28.617] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 14, from 10
-[01Apr2020 23:14:31.017] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[01Apr2020 23:14:31.315] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:edf55072] logged in with entity id 242 at (-127.32859088996253, 63.0, 161.54182800865718)
-[01Apr2020 23:14:31.349] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[01Apr2020 23:14:31.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[01Apr2020 23:14:31.951] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[01Apr2020 23:14:31.952] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[01Apr2020 23:14:31.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[01Apr2020 23:14:32.229] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 82 advancements
-[01Apr2020 23:14:33.162] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@ebb8175[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+[01Apr2020 23:47:48.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01Apr2020 23:47:52.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
+[01Apr2020 23:47:53.784] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[01Apr2020 23:47:53.960] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[01Apr2020 23:47:53.961] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[01Apr2020 23:47:54.264] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[01Apr2020 23:47:54.913] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[01Apr2020 23:47:54.914] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[01Apr2020 23:47:54.914] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[01Apr2020 23:47:56.706] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[01Apr2020 23:48:00.473] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Apr2020 23:48:00.474] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Apr2020 23:48:00.475] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Apr2020 23:48:00.476] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Apr2020 23:48:00.477] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Apr2020 23:48:00.704] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[01Apr2020 23:48:00.704] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[01Apr2020 23:48:00.793] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[01Apr2020 23:48:00.905] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[01Apr2020 23:48:01.108] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
+[01Apr2020 23:48:04.074] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[01Apr2020 23:48:07.237] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 858 advancements
+[01Apr2020 23:48:07.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Apr2020 23:48:08.723] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Apr2020 23:48:08.723] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Apr2020 23:48:08.723] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Apr2020 23:48:09.212] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1497 ms
+[01Apr2020 23:48:10.170] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Apr2020 23:48:10.170] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Apr2020 23:48:10.174] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 14, from 10
+[01Apr2020 23:48:13.687] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[01Apr2020 23:48:13.984] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:17d10ecb] logged in with entity id 262 at (-124.2067142412826, 64.0, 160.6549165685509)
+[01Apr2020 23:48:14.021] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[01Apr2020 23:48:14.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[01Apr2020 23:48:14.656] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[01Apr2020 23:48:14.694] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[01Apr2020 23:48:14.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[01Apr2020 23:48:14.891] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 29 advancements
+[01Apr2020 23:48:15.859] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@38f019b4[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
@@ -105,241 +103,63 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
-[01Apr2020 23:14:33.690] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2135ms or 42 ticks behind
-[01Apr2020 23:14:47.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Revoked 857 advancements from Dev]
-[01Apr2020 23:14:47.302] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Revoked 857 advancements from Dev
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_sword
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/ladder
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_leggings
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_hoe
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/gold_ingot_from_gold_block
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_boots
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_axe
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_leggings
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/netherite_scrap_from_smelting
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_pickaxe
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/diamond
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/campfire
-[01Apr2020 23:14:47.316] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_sword
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/jukebox
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/gold_nugget
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_hoe
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/end_diamond_ore_from_smelting
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_shovel
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_chestplate
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/nether_gold_ore_from_smelting
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/charcoal
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_pickaxe
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/food/golden_apple
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_helmet
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_boots
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_chestplate
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_axe
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_shovel
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_helmet
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_helmet
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/polished_complite
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_axe
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/polished_basalt_from_stonecutting
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/smoker
-[01Apr2020 23:14:47.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/crafting_table
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_crystal
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_sword
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/chest
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_shovel
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/stick
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_crystal_from_blasting
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/building_blocks/gold_block
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/acacia_boat
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_pickaxe
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_chestplate
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/wooden_sword
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:enderium/invincible_enderium-man
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:enderium/overpowered
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:enderium/enderium
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:enderium/invincible_enderium-man
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:enderium/overpowered
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:enderium/enderium
-[01Apr2020 23:14:47.318] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:enderium/root
-[01Apr2020 23:14:47.319] [Client thread/WARN] [net.minecraft.advancements.AdvancementList/]: Told to remove advancement enderium:enderium/invincible_enderium-man but I don't know what that is
-[01Apr2020 23:14:47.319] [Client thread/WARN] [net.minecraft.advancements.AdvancementList/]: Told to remove advancement enderium:enderium/overpowered but I don't know what that is
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/crossbow
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/polished_complite_from_stonecutting
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/barrel
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/building_blocks/diamond_block
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/nether_gold_ore_from_blasting
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_hoe
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/spruce_boat
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/birch_boat
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/netherite_scrap_from_blasting
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_hoe
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_shovel
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/shiny_gear
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/enchant_item
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/mine_diamond
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/shiny_gear
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/enchant_item
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/mine_diamond
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/iron_tools
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/shiny_gear
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/enchant_item
-[01Apr2020 23:14:47.319] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/mine_diamond
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/iron_tools
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/smelt_iron
-[01Apr2020 23:14:47.320] [Client thread/WARN] [net.minecraft.advancements.AdvancementList/]: Told to remove advancement minecraft:story/shiny_gear but I don't know what that is
-[01Apr2020 23:14:47.320] [Client thread/WARN] [net.minecraft.advancements.AdvancementList/]: Told to remove advancement minecraft:story/enchant_item but I don't know what that is
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/oak_boat
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_pickaxe
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_axe
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_crystal_from_smelting
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/redstone/light_weighted_pressure_plate
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/shiny_gear
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/enchant_item
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/mine_diamond
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/iron_tools
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/smelt_iron
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/upgrade_tools
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/mine_stone
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:story/root
-[01Apr2020 23:14:47.320] [Client thread/WARN] [net.minecraft.advancements.AdvancementList/]: Told to remove advancement minecraft:story/mine_stone but I don't know what that is
-[01Apr2020 23:14:47.320] [Client thread/WARN] [net.minecraft.advancements.AdvancementList/]: Told to remove advancement minecraft:story/upgrade_tools but I don't know what that is
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/polished_basalt
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/jungle_boat
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/dark_oak_boat
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_leggings
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/end_diamond_ore_from_blasting
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_chestplate
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_sword
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/netherite_scrap_from_smelting
-[01Apr2020 23:14:47.320] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/polished_basalt
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/nether_gold_ore_from_smelting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_crystal
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/polished_complite_from_stonecutting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_crystal_from_smelting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/polished_complite
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_shovel
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/netherite_scrap_from_blasting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_axe
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/polished_basalt_from_stonecutting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_boots
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/nether/nether_gold_ore_from_blasting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/end_diamond_ore_from_blasting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_leggings
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_hoe
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/end_diamond_ore_from_smelting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_helmet
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_pickaxe
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/end/enderium_crystal_from_blasting
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement enderium:recipes/root
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_boots
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_shovel
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_boots
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/smoker
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_axe
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_pickaxe
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/building_blocks/gold_block
-[01Apr2020 23:14:47.321] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_chestplate
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_chestplate
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_axe
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_leggings
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/campfire
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/charcoal
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/crafting_table
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_hoe
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_pickaxe
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/ladder
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_sword
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/chest
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/birch_boat
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/food/golden_apple
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/barrel
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_shovel
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/acacia_boat
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_sword
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/stick
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/jungle_boat
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/decorations/jukebox
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/spruce_boat
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/redstone/light_weighted_pressure_plate
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/wooden_sword
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/building_blocks/diamond_block
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/dark_oak_boat
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_pickaxe
-[01Apr2020 23:14:47.322] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_hoe
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/diamond_shovel
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/gold_nugget
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/golden_axe
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/tools/wooden_hoe
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_leggings
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/golden_helmet
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/diamond
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_boots
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/diamond_helmet
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/combat/crossbow
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/transportation/oak_boat
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/misc/gold_ingot_from_gold_block
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Forgot about advancement minecraft:recipes/root
-[01Apr2020 23:14:47.323] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[01Apr2020 23:14:51.805] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[01Apr2020 23:14:51.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[01Apr2020 23:15:03.317] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
-[01Apr2020 23:15:05.856] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[01Apr2020 23:15:05.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[01Apr2020 23:15:06.166] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[01Apr2020 23:15:06.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[01Apr2020 23:15:06.173] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[01Apr2020 23:15:06.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Apr2020 23:15:06.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Apr2020 23:15:06.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Apr2020 23:15:06.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[01Apr2020 23:15:06.446] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[01Apr2020 23:15:06.463] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[01Apr2020 23:15:07.481] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Apr2020 23:15:07.482] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Apr2020 23:15:07.482] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Apr2020 23:15:07.483] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Apr2020 23:15:07.484] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Apr2020 23:15:07.486] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
-[01Apr2020 23:15:07.486] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[01Apr2020 23:15:07.584] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[01Apr2020 23:15:07.593] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[01Apr2020 23:15:07.740] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
-[01Apr2020 23:15:10.288] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[01Apr2020 23:15:12.308] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 857 advancements
-[01Apr2020 23:15:12.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Apr2020 23:15:12.949] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Apr2020 23:15:12.949] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Apr2020 23:15:13.120] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 783 ms
-[01Apr2020 23:15:13.161] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Apr2020 23:15:13.161] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Apr2020 23:15:13.161] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 14, from 10
-[01Apr2020 23:15:13.430] [Netty Local Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[01Apr2020 23:15:13.440] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:ea35cea5] logged in with entity id 641 at (-127.32859088996253, 63.0, 161.54182800865718)
-[01Apr2020 23:15:13.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[01Apr2020 23:15:13.445] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[01Apr2020 23:15:13.652] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[01Apr2020 23:15:13.670] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[01Apr2020 23:15:13.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[01Apr2020 23:15:13.781] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
-[01Apr2020 23:15:34.856] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Couldn't revoke 2 advancements from Dev as they don't have them
-[01Apr2020 23:15:49.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Took 796 recipes from Dev]
-[01Apr2020 23:15:49.937] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Took 796 recipes from Dev
-[01Apr2020 23:15:58.726] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 8 advancements
-[01Apr2020 23:16:16.491] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 11 advancements
-[01Apr2020 23:16:21.828] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 19 advancements
-[01Apr2020 23:16:41.821] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 21 advancements
-[01Apr2020 23:17:04.225] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 22 advancements
-[01Apr2020 23:17:05.269] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 23 advancements
-[01Apr2020 23:17:11.756] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 29 advancements
-[01Apr2020 23:17:44.764] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[01Apr2020 23:17:44.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[01Apr2020 23:17:45.775] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[01Apr2020 23:17:45.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[01Apr2020 23:17:45.781] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[01Apr2020 23:17:45.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Apr2020 23:17:45.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Apr2020 23:17:45.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Apr2020 23:17:45.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[01Apr2020 23:17:46.072] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[01Apr2020 23:17:46.085] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[01Apr2020 23:17:46.656] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[01Apr2020 23:48:29.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Took 797 recipes from Dev]
+[01Apr2020 23:48:29.857] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Took 797 recipes from Dev
+[01Apr2020 23:48:34.758] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
+[01Apr2020 23:49:01.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Took 797 recipes from Dev]
+[01Apr2020 23:49:01.226] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Took 797 recipes from Dev
+[01Apr2020 23:49:11.404] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 34 advancements
+[01Apr2020 23:49:42.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Took 797 recipes from Dev]
+[01Apr2020 23:49:42.804] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Took 797 recipes from Dev
+[01Apr2020 23:49:54.642] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[01Apr2020 23:49:54.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[01Apr2020 23:49:56.443] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[01Apr2020 23:49:56.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[01Apr2020 23:49:56.757] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[01Apr2020 23:49:56.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[01Apr2020 23:49:56.764] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[01Apr2020 23:49:56.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Apr2020 23:49:56.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Apr2020 23:49:56.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Apr2020 23:49:56.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[01Apr2020 23:49:56.944] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01Apr2020 23:49:56.956] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01Apr2020 23:49:58.122] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Apr2020 23:49:58.122] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Apr2020 23:49:58.123] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Apr2020 23:49:58.124] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Apr2020 23:49:58.124] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Apr2020 23:49:58.127] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[01Apr2020 23:49:58.127] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[01Apr2020 23:49:58.171] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[01Apr2020 23:49:58.178] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[01Apr2020 23:49:58.306] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
+[01Apr2020 23:50:00.843] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[01Apr2020 23:50:02.797] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 858 advancements
+[01Apr2020 23:50:02.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Apr2020 23:50:03.402] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Apr2020 23:50:03.402] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Apr2020 23:50:03.554] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 732 ms
+[01Apr2020 23:50:03.583] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Apr2020 23:50:03.583] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Apr2020 23:50:03.583] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 14, from 10
+[01Apr2020 23:50:03.849] [Netty Local Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[01Apr2020 23:50:03.868] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:ed82d0c2] logged in with entity id 857 at (-126.02154885013009, 63.0, 160.98850626991185)
+[01Apr2020 23:50:03.870] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[01Apr2020 23:50:03.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[01Apr2020 23:50:04.062] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[01Apr2020 23:50:04.094] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[01Apr2020 23:50:04.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[01Apr2020 23:50:04.213] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 34 advancements
+[01Apr2020 23:50:18.494] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[01Apr2020 23:50:18.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[01Apr2020 23:50:19.177] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[01Apr2020 23:50:19.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[01Apr2020 23:50:19.183] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[01Apr2020 23:50:19.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Apr2020 23:50:19.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Apr2020 23:50:19.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Apr2020 23:50:19.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[01Apr2020 23:50:19.342] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01Apr2020 23:50:19.354] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01Apr2020 23:50:19.797] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
