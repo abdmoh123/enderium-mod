@@ -17,6 +17,8 @@ public class ModSetup {
     public void init() {
         //sets up the ore generation
         OreGen.setupOreGen();
+
+        //outputs to logger for testing
         Enderium.LOGGER.info("Setup method registered");
     }
 }

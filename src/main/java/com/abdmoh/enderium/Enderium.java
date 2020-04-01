@@ -9,6 +9,7 @@ import com.abdmoh.enderium.setup.ClientProxy;
 import com.abdmoh.enderium.setup.IProxy;
 import com.abdmoh.enderium.setup.ModSetup;
 import com.abdmoh.enderium.setup.ServerProxy;
+import com.abdmoh.enderium.world.features.EnchantedTree;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -34,6 +35,7 @@ public class Enderium {
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
     public static ModSetup setup = new ModSetup();
     public static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "enderium";
 
     public Enderium() {
         //registers config files
@@ -76,6 +78,12 @@ public class Enderium {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             //blocks registered
             event.getRegistry().registerAll(
+                    new EnchantedLog(),
+                    new EnchantedWood(),
+                    new StrippedEnchantedLog(),
+                    new StrippedEnchantedWood(),
+                    new EnchantedPlanks(),
+                    new EnchantedConjium(),
                     new PolishedComplite(),
                     new PolishedBasalt(),
                     new EndDiamondOre(),
@@ -85,7 +93,9 @@ public class Enderium {
                     new MysticalCrystal(),
                     new AncientDebris(),
                     new EnderiumBlock(),
-                    new NetheriteBlock()
+                    new NetheriteBlock(),
+                    new MysticGrass(),
+                    new EnchantedSapling(new EnchantedTree())
             );
         }
 
@@ -97,6 +107,12 @@ public class Enderium {
 
             //block items registered
             event.getRegistry().registerAll(
+                    new BlockItem(ModBlocks.ENCHANTED_LOG, properties).setRegistryName("enchanted_log"),
+                    new BlockItem(ModBlocks.ENCHANTED_WOOD, properties).setRegistryName("enchanted_wood"),
+                    new BlockItem(ModBlocks.STRIPPED_ENCHANTED_LOG, properties).setRegistryName("stripped_enchanted_log"),
+                    new BlockItem(ModBlocks.STRIPPED_ENCHANTED_WOOD, properties).setRegistryName("stripped_enchanted_wood"),
+                    new BlockItem(ModBlocks.ENCHANTED_PLANKS, properties).setRegistryName("enchanted_planks"),
+                    new BlockItem(ModBlocks.ENCHANTED_CONJIUM, properties).setRegistryName("enchanted_conjium"),
                     new BlockItem(ModBlocks.POLISHED_COMPLITE, properties).setRegistryName("polished_complite"),
                     new BlockItem(ModBlocks.POLISHED_BASALT, properties).setRegistryName("polished_basalt"),
                     new BlockItem(ModBlocks.END_DIAMOND_ORE, properties).setRegistryName("end_diamond_ore"),
@@ -106,7 +122,9 @@ public class Enderium {
                     new BlockItem(ModBlocks.MYSTICAL_CRYSTAL, properties).setRegistryName("mystical_crystal"),
                     new BlockItem(ModBlocks.ANCIENT_DEBRIS, properties).setRegistryName("ancient_debris"),
                     new BlockItem(ModBlocks.ENDERIUM_BLOCK, properties).setRegistryName("enderium_block"),
-                    new BlockItem(ModBlocks.NETHERITE_BLOCK, properties).setRegistryName("netherite_block")
+                    new BlockItem(ModBlocks.NETHERITE_BLOCK, properties).setRegistryName("netherite_block"),
+                    new BlockItem(ModBlocks.MYSTIC_GRASS, properties).setRegistryName("mystic_grass"),
+                    new BlockItem(ModBlocks.ENCHANTED_SAPLING, properties).setRegistryName("enchanted_sapling")
             );
 
             //items registered
@@ -123,7 +141,7 @@ public class Enderium {
                     ModItems.ENDERIUM_AXE = (AxeItem) new AxeItem(
                             ModToolMaterials.enderium,
                             5.0F,
-                            -3.0F,
+                            -2.8F,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_axe"),
@@ -138,7 +156,7 @@ public class Enderium {
                     ModItems.ENDERIUM_PICKAXE = (PickaxeItem) new PickaxeItem(
                             ModToolMaterials.enderium,
                             1,
-                            -2.8F,
+                            -2.5F,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_pickaxe"),
@@ -146,7 +164,7 @@ public class Enderium {
                     ModItems.ENDERIUM_SHOVEL = (ShovelItem) new ShovelItem(
                             ModToolMaterials.enderium,
                             1.5F,
-                            -3.0F,
+                            -2.8F,
                             new Item.Properties()
                                     .group(Enderium.setup.itemGroup))
                                     .setRegistryName("enderium_shovel"),
