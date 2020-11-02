@@ -19,6 +19,8 @@ public class Config {
     static {
         //initialises the oregen config
         OreGenConfig.init(SERVER_BUILDER, CLIENT_BUILDER);
+        //initialises the mob spawning config
+        MobSpawnConfig.init(SERVER_BUILDER, CLIENT_BUILDER);
 
         SERVER_CONFIG = SERVER_BUILDER.build();
         CLIENT_CONFIG = CLIENT_BUILDER.build();

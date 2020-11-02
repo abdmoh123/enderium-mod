@@ -1,6 +1,7 @@
 package com.abdmoh.enderium.init;
 
 import com.abdmoh.enderium.Enderium;
+import com.abdmoh.enderium.config.MobSpawnConfig;
 import com.abdmoh.enderium.entities.EnderSentry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
@@ -28,9 +29,11 @@ public class ModEntities {
     }
 
     public static void registerWorldSpawns() {
-        registerWorldSpawn(ENDER_SENTRY,
-                Biomes.SMALL_END_ISLANDS
-        );
+        if (MobSpawnConfig.ender_sentry_spawn.get()) {
+            registerWorldSpawn(ENDER_SENTRY,
+                    Biomes.SMALL_END_ISLANDS
+            );
+        }
     }
 
     public static void registerWorldSpawn(EntityType<?> entity, Biome...biomes) {

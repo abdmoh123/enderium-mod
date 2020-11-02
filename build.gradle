@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.14.4-1.1.1'
+version = '1.14.4-1.1.2'
 group = 'com.abdmoh.enderium' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'enderium'
 
@@ -116,11 +116,11 @@ jar {
     manifest {
         attributes([
             "Specification-Title": "enderium",
-            "Specification-Vendor": "enderiumsareus",
+            "Specification-Vendor": "abdmoh",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"enderiumsareus",
+            "Implementation-Vendor" :"abdmoh",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
