@@ -10,20 +10,18 @@ import java.io.File;
 
 @Mod.EventBusSubscriber
 public class Config {
-    private static final ForgeConfigSpec.Builder SERVER_BUILDER = new ForgeConfigSpec.Builder();
+    //initialises the server config
     public static final ForgeConfigSpec SERVER_CONFIG;
-
-    private static final ForgeConfigSpec.Builder CLIENT_BUILDER = new ForgeConfigSpec.Builder();
-    public static final ForgeConfigSpec CLIENT_CONFIG;
+    private static final ForgeConfigSpec.Builder SERVER_BUILDER = new ForgeConfigSpec.Builder();
 
     static {
         //initialises the oregen config
-        OreGenConfig.init(SERVER_BUILDER, CLIENT_BUILDER);
+        OreGenConfig.init(SERVER_BUILDER);
         //initialises the mob spawning config
-        MobSpawnConfig.init(SERVER_BUILDER, CLIENT_BUILDER);
+        MobSpawnConfig.init(SERVER_BUILDER);
 
+        //creates the config files
         SERVER_CONFIG = SERVER_BUILDER.build();
-        CLIENT_CONFIG = CLIENT_BUILDER.build();
     }
 
     public static void loadConfig(ForgeConfigSpec CONFIG, String path) {

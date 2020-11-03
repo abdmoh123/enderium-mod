@@ -11,7 +11,7 @@
     },
     "frame": "challenge"
   },
-  "parent": "enderium:enderium/enderium",
+  "parent": "enderium:enderium/get_mystical_dust",
   "criteria": {
     "has_armor": {
       "trigger": "minecraft:inventory_changed",

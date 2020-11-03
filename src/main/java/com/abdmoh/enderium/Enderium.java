@@ -11,9 +11,11 @@ import com.abdmoh.enderium.setup.ModSetup;
 import com.abdmoh.enderium.setup.ServerProxy;
 import com.abdmoh.enderium.world.features.EnchantedTree;
 import net.minecraft.block.Block;
+import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.world.gen.Heightmap;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -40,7 +42,6 @@ public class Enderium {
     public Enderium() {
         //registers config files
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, Config.SERVER_CONFIG);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.CLIENT_CONFIG);
 
         // Register the setup method for mod loading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -48,7 +49,6 @@ public class Enderium {
 
         //loads config files
         Config.loadConfig(Config.SERVER_CONFIG, FMLPaths.CONFIGDIR.get().resolve("enderium-server.toml").toString());
-        Config.loadConfig(Config.CLIENT_CONFIG, FMLPaths.CONFIGDIR.get().resolve("enderium-client.toml").toString());
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -58,6 +58,8 @@ public class Enderium {
         //initialises the setup and proxy
         setup.init();
         proxy.init();
+        //Allows modded blocks to be composted, burn and stripped
+        ModVanillaCompat.init();
 
         LOGGER.info("setup method registered");
     }
@@ -278,15 +280,20 @@ public class Enderium {
                             .setRegistryName("netherite_boots")
             );
 
-            //registers entities (spawn eggs)
+            //registers entity spawn eggs
             ModEntities.registerSpawnEggs(event);
         }
 
+
+        //registers entities
         @SubscribeEvent
         public static void onEntitiesRegistry(final RegistryEvent.Register<EntityType<?>> event) {
             event.getRegistry().registerAll(
-                    ModEntities.ENDER_SENTRY
+                    ModEntities.ENDER_SENTRY.setRegistryName("ender_sentry")
             );
+            //code below ensures that the mob doesn't spawn over void
+            EntitySpawnPlacementRegistry.register(ModEntities.ENDER_SENTRY, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, ModEntities::endIslandCondition);
+            //code below allows all entities to spawn
             ModEntities.registerWorldSpawns();
         }
     }

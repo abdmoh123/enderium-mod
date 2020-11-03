@@ -26,7 +26,7 @@ maxFps:120
 difficulty:2
 fancyGraphics:true
 ao:2
-biomeBlendRadius:2
+biomeBlendRadius:7
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]

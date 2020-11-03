@@ -1,25 +1,24 @@
-[02Nov2020 20:47:13.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[02Nov2020 20:47:13.334] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_265 by AdoptOpenJDK
-[02Nov2020 20:47:13.642] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[02Nov2020 20:47:14.642] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[02Nov2020 20:47:16.914] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[02Nov2020 20:47:29.458] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[02Nov2020 20:47:29.499] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[02Nov2020 20:47:30.776] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
-[02Nov2020 20:47:30.776] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
-[02Nov2020 20:47:30.831] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loading config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
-[02Nov2020 20:47:30.832] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Built config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
-[02Nov2020 20:47:30.833] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loaded config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
-[02Nov2020 20:47:30.836] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loading config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
-[02Nov2020 20:47:30.836] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Built config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
-[02Nov2020 20:47:30.837] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loaded config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-client.toml
-[02Nov2020 20:47:31.030] [Client thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity enderium:ender_sentry
-[02Nov2020 20:47:34.534] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[02Nov2020 20:47:34.665] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Setup method registered
-[02Nov2020 20:47:34.665] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: setup method registered
-[02Nov2020 20:47:34.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderium] Starting version check at http://myurl.me/
-[02Nov2020 20:47:34.861] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: clientRegistries method registered
-[02Nov2020 20:47:35.308] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[03Nov2020 23:02:31.470] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[03Nov2020 23:02:31.474] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_265 by AdoptOpenJDK
+[03Nov2020 23:02:31.771] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03Nov2020 23:02:32.800] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Abdul\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[03Nov2020 23:02:35.024] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03Nov2020 23:02:47.817] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[03Nov2020 23:02:47.848] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[03Nov2020 23:02:49.324] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
+[03Nov2020 23:02:49.324] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
+[03Nov2020 23:02:49.371] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loading config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
+[03Nov2020 23:02:49.371] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Built config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
+[03Nov2020 23:02:49.373] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Loaded config: E:\Games\MC Modding\Forge mods\Enderium\run\config\enderium-server.toml
+[03Nov2020 23:02:49.585] [Client thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity enderium:ender_sentry
+[03Nov2020 23:02:53.183] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[03Nov2020 23:02:53.309] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[03Nov2020 23:02:53.322] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: Setup method registered
+[03Nov2020 23:02:53.344] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: VanillaCompat init method registered
+[03Nov2020 23:02:53.345] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: setup method registered
+[03Nov2020 23:02:53.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderium] Starting version check at http://myurl.me/
+[03Nov2020 23:02:53.503] [modloading-worker-9/INFO] [com.abdmoh.enderium.Enderium/]: clientRegistries method registered
+[03Nov2020 23:02:53.949] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_265]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_265]
@@ -41,64 +40,136 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_265]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[02Nov2020 20:47:35.318] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[02Nov2020 20:47:36.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
-[02Nov2020 20:47:39.823] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[02Nov2020 20:47:39.921] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[02Nov2020 20:47:39.922] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[02Nov2020 20:47:40.092] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
-[02Nov2020 20:47:40.702] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[02Nov2020 20:47:40.703] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[02Nov2020 20:47:40.703] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[02Nov2020 20:47:41.511] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[02Nov2020 20:48:33.013] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[02Nov2020 20:48:33.014] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02Nov2020 20:48:33.015] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02Nov2020 20:48:33.016] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[02Nov2020 20:48:33.016] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02Nov2020 20:48:33.189] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
-[02Nov2020 20:48:33.190] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[02Nov2020 20:48:33.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\enderium-server.toml is not correct. Correcting
-[02Nov2020 20:48:33.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawn was corrected from null to SimpleCommentedConfig:{}
-[02Nov2020 20:48:33.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawn.ender_sentry_spawn was corrected from null to true
-[02Nov2020 20:48:33.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawnconfig was corrected from SimpleCommentedConfig:{ender_sentry_spawn=true} to null
-[02Nov2020 20:48:33.390] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[02Nov2020 20:48:33.576] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
-[02Nov2020 20:48:35.509] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[02Nov2020 20:48:37.544] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 858 advancements
-[02Nov2020 20:48:37.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[02Nov2020 20:48:39.102] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02Nov2020 20:48:39.102] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02Nov2020 20:48:39.102] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02Nov2020 20:48:39.457] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1552 ms
-[02Nov2020 20:48:39.872] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02Nov2020 20:48:39.872] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02Nov2020 20:48:39.876] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 14, from 10
-[02Nov2020 20:48:41.582] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[02Nov2020 20:48:41.809] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:3beb2065] logged in with entity id 274 at (-39.91016234249528, 66.0, 1070.6291334762313)
-[02Nov2020 20:48:41.829] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[02Nov2020 20:48:41.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[02Nov2020 20:48:42.300] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[02Nov2020 20:48:42.300] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[02Nov2020 20:48:42.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:the_end
-[02Nov2020 20:48:42.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[02Nov2020 20:48:42.375] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 73 advancements
-[02Nov2020 20:48:47.164] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[02Nov2020 20:48:47.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:the_end
-[02Nov2020 20:48:47.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[02Nov2020 20:48:50.631] [Client thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[02Nov2020 20:48:50.642] [Client thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Started serving on 56069
-[02Nov2020 20:48:50.663] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Local game hosted on port 56069
-[02Nov2020 20:49:28.722] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[02Nov2020 20:49:28.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[02Nov2020 20:49:28.733] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[02Nov2020 20:49:28.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[02Nov2020 20:49:28.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[02Nov2020 20:49:28.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[02Nov2020 20:49:28.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:the_end
-[02Nov2020 20:49:28.962] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02Nov2020 20:49:28.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[02Nov2020 20:49:29.112] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[02Nov2020 20:49:29.123] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02Nov2020 20:49:29.124] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[02Nov2020 20:49:30.099] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[03Nov2020 23:02:53.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03Nov2020 23:02:54.522] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
+[03Nov2020 23:02:58.551] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[03Nov2020 23:02:58.654] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[03Nov2020 23:02:58.655] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[03Nov2020 23:02:58.835] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[03Nov2020 23:02:59.374] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[03Nov2020 23:02:59.376] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[03Nov2020 23:02:59.376] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[03Nov2020 23:02:59.982] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[03Nov2020 23:03:10.650] [Client thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Deleting level test
+[03Nov2020 23:03:10.650] [Client thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Attempt 1...
+[03Nov2020 23:03:15.541] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Nov2020 23:03:15.542] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Nov2020 23:03:15.542] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Nov2020 23:03:15.543] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Nov2020 23:03:15.544] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Nov2020 23:03:15.721] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[03Nov2020 23:03:15.721] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[03Nov2020 23:03:15.839] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (2)\serverconfig\enderium-server.toml is not correct. Correcting
+[03Nov2020 23:03:15.840] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen was corrected from null to SimpleCommentedConfig:{}
+[03Nov2020 23:03:15.840] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.enderium_count was corrected from null to 4
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.enderium_chance was corrected from null to 2
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.enderium_bottom was corrected from null to 4
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.enderium_top was corrected from null to 25
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generate_enderium was corrected from null to true
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.netherite_count was corrected from null to 3
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.netherite_bottom was corrected from null to 8
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.netherite_top was corrected from null to 22
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.low_netherite_count was corrected from null to 2
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.low_netherite_bottom was corrected from null to 8
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.low_netherite_top was corrected from null to 119
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generate_netherite was corrected from null to true
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.end_diamond_count was corrected from null to 9
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.end_diamond_chance was corrected from null to 5
+[03Nov2020 23:03:15.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.end_diamond_bottom was corrected from null to 10
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.end_diamond_top was corrected from null to 117
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generate_end_diamond was corrected from null to true
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.nether_gold_count was corrected from null to 10
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.nether_gold_chance was corrected from null to 10
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.nether_gold_bottom was corrected from null to 10
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.nether_gold_top was corrected from null to 117
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generate_nether_gold was corrected from null to true
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.basalt_count was corrected from null to 32
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.basalt_chance was corrected from null to 8
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.basalt_bottom was corrected from null to 4
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.basalt_top was corrected from null to 50
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generate_basalt was corrected from null to true
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.complite_count was corrected from null to 24
+[03Nov2020 23:03:15.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.complite_chance was corrected from null to 8
+[03Nov2020 23:03:15.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.complite_bottom was corrected from null to 0
+[03Nov2020 23:03:15.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.complite_top was corrected from null to 32
+[03Nov2020 23:03:15.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generate_complite was corrected from null to true
+[03Nov2020 23:03:15.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawn was corrected from null to SimpleCommentedConfig:{}
+[03Nov2020 23:03:15.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawn.ender_sentry_spawn was corrected from null to true
+[03Nov2020 23:03:15.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawn.ender_sentry_weight was corrected from null to 5
+[03Nov2020 23:03:15.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawn.ender_sentry_min was corrected from null to 1
+[03Nov2020 23:03:15.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobspawn.ender_sentry_max was corrected from null to 3
+[03Nov2020 23:03:15.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (2)\serverconfig\forge-server.toml is not correct. Correcting
+[03Nov2020 23:03:15.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[03Nov2020 23:03:15.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
+[03Nov2020 23:03:15.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[03Nov2020 23:03:15.931] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[03Nov2020 23:03:16.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack vanilla, loading it automatically
+[03Nov2020 23:03:16.122] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_stable_58-1.14.4-recomp.jar
+[03Nov2020 23:03:18.605] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[03Nov2020 23:03:20.535] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement enderium:netherite/serious_dedication2: Expected items to be a JsonArray, was an object ({"it...e"})
+[03Nov2020 23:03:20.831] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 856 advancements
+[03Nov2020 23:03:24.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Nov2020 23:03:24.145] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2020 23:03:24.645] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2020 23:03:25.078] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2020 23:03:25.899] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2020 23:03:26.090] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[03Nov2020 23:03:26.587] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[03Nov2020 23:03:27.080] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[03Nov2020 23:03:27.583] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 16%
+[03Nov2020 23:03:28.139] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 22%
+[03Nov2020 23:03:28.607] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 23%
+[03Nov2020 23:03:29.079] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[03Nov2020 23:03:29.586] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[03Nov2020 23:03:30.089] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 36%
+[03Nov2020 23:03:30.589] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 43%
+[03Nov2020 23:03:31.090] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 48%
+[03Nov2020 23:03:31.653] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 52%
+[03Nov2020 23:03:32.091] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[03Nov2020 23:03:32.585] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[03Nov2020 23:03:33.087] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 69%
+[03Nov2020 23:03:33.587] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
+[03Nov2020 23:03:34.086] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 82%
+[03Nov2020 23:03:34.579] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[03Nov2020 23:03:35.080] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[03Nov2020 23:03:35.596] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[03Nov2020 23:03:35.613] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 11537 ms
+[03Nov2020 23:03:35.858] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Nov2020 23:03:35.859] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Nov2020 23:03:35.862] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 14, from 10
+[03Nov2020 23:03:37.465] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[03Nov2020 23:03:37.643] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:0b31ddfa] logged in with entity id 248 at (223.5, 71.0, -49.5)
+[03Nov2020 23:03:37.669] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[03Nov2020 23:03:37.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[03Nov2020 23:03:38.434] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[03Nov2020 23:03:38.635] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[03Nov2020 23:03:38.645] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[03Nov2020 23:03:38.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[03Nov2020 23:03:41.377] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3621ms or 72 ticks behind
+[03Nov2020 23:04:03.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Cover Me in Debris]
+[03Nov2020 23:04:03.756] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has completed the challenge [Cover Me in Debris]
+[03Nov2020 23:04:03.770] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
+[03Nov2020 23:04:05.006] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[03Nov2020 23:04:05.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[03Nov2020 23:04:07.107] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[03Nov2020 23:04:34.868] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5 advancements
+[03Nov2020 23:06:00.308] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[03Nov2020 23:06:00.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[03Nov2020 23:06:01.870] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[03Nov2020 23:06:01.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[03Nov2020 23:06:01.877] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[03Nov2020 23:06:01.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Nov2020 23:06:01.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Nov2020 23:06:01.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Nov2020 23:06:01.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[03Nov2020 23:06:02.316] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (2)): All chunks are saved
+[03Nov2020 23:06:02.326] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (2)): All chunks are saved
+[03Nov2020 23:06:02.970] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

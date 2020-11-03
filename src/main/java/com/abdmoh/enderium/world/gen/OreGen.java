@@ -27,9 +27,15 @@ public class OreGen {
         //generates ancient debris
         if (OreGenConfig.generate_netherite.get()) {
             for (Biome biome: ForgeRegistries.BIOMES) {
+                //high concentration vein
                 biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(FillerBlockType.NETHERRACK,
                         ModBlocks.ANCIENT_DEBRIS.getDefaultState(), OreGenConfig.netherite_count.get()), Placement.COUNT_RANGE,
-                        new CountRangeConfig(OreGenConfig.netherite_chance.get(), OreGenConfig.netherite_bottom.get(), 0, OreGenConfig.netherite_top.get())));
+                        new CountRangeConfig(1, OreGenConfig.netherite_bottom.get(), 0, OreGenConfig.netherite_top.get())));
+
+                //low concentration vein
+                biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(FillerBlockType.NETHERRACK,
+                        ModBlocks.ANCIENT_DEBRIS.getDefaultState(), OreGenConfig.low_netherite_count.get()), Placement.COUNT_RANGE,
+                        new CountRangeConfig(1, OreGenConfig.low_netherite_bottom.get(), 0, OreGenConfig.low_netherite_top.get())));
             }
         }
         //generates end diamond ore

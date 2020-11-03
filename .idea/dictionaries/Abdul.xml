@@ -18,8 +18,10 @@
       <w>enderiumpickaxe</w>
       <w>enderiumshovel</w>
       <w>enderiumsword</w>
+      <w>endermen</w>
       <w>infuseddiamond</w>
       <w>minecraft</w>
+      <w>mobspawn</w>
       <w>modid</w>
       <w>netherite</w>
       <w>nylium</w>
@@ -30,6 +32,7 @@
       <w>smithing</w>
       <w>smithingtable</w>
       <w>stonecutting</w>
+      <w>strippable</w>
       <w>toml</w>
     </words>
   </dictionary>
